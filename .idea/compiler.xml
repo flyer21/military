@@ -11,6 +11,9 @@
         <module name="eureka-client" />
         <module name="Eureka-client" />
         <module name="eureka-server" />
+        <module name="serice-feign" />
+        <module name="service-feign" />
+        <module name="service-ribbon" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -20,6 +23,9 @@
       <module name="Eureka-client" target="1.6" />
       <module name="eureka-server" target="1.8" />
       <module name="military" target="1.6" />
+      <module name="serice-feign" target="1.6" />
+      <module name="service-feign" target="1.6" />
+      <module name="service-ribbon" target="1.6" />
     </bytecodeTargetLevel>
   </component>
 </project>
