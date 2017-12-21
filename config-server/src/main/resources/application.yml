@@ -10,5 +10,5 @@ spring:
         git:
           uri: https://github.com/flyer21/military
           searchPaths: SpringcloudConfig
-          username: flyer21@163.net
+          username: flyer21@163.com
           password: frf12345
