@@ -1,0 +1,4 @@
+server:
+  port: 9769
+
+foo: foo version 3222222222

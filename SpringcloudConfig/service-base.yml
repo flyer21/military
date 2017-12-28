@@ -1,0 +1,8 @@
+server:
+  port: 1000
+management:
+  port: 2222
+foo: foo version 3222222222
+
+military.container.dir: C:\Users\文舞\IdeaProjects\military\deploy\modules
+military.container.path: C:\Users\文舞\IdeaProjects\military\service-hi\target\classes

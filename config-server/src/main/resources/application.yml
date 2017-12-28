@@ -1,0 +1,22 @@
+server:
+  port: 8888
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      label: master
+      server:
+        git:
+          uri: file:///C:/Users/文舞/IdeaProjects/military
+          searchPaths: SpringcloudConfig
+#          username: flyer21@163.com
+#          password: frf12345
+eureka:
+#  instance:
+#    hostname: localhost
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+  profiles:
+    active: dev
