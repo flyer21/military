@@ -55,4 +55,9 @@ public class Rest1Controller {
     public AlwaysSampler defaultSampler(){
         return new AlwaysSampler();
     }
+
+    @Override
+    public boolean equals(Object obj) {
+        return super.equals(obj);
+    }
 }

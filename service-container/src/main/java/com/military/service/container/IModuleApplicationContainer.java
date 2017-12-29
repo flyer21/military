@@ -1,6 +1,6 @@
 package com.military.service.container;
 
-public interface IModuleContainer {
+public interface IModuleApplicationContainer {
 
     void init();
 

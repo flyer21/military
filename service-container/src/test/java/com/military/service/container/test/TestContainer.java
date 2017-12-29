@@ -1,6 +1,6 @@
 package  com.military.service.container.test;
 
-import com.military.service.container.ModuleContainer;
+import com.military.service.container.ModuleApplicationContainer;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -16,7 +16,7 @@ public class TestContainer {
 
     @Test
     void  createContainer(){
-        ModuleContainer sc = new ModuleContainer(ctx);
+        ModuleApplicationContainer sc = new ModuleApplicationContainer(ctx);
         sc.init();
         sc.start();
         sc.stop();
