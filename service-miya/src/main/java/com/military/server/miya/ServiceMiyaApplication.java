@@ -1,4 +1,4 @@
-package com.military.server.hi;
+package com.military.server.miya;
 
 
 import org.slf4j.Logger;

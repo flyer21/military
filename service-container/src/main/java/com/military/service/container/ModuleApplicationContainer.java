@@ -3,6 +3,7 @@ package  com.military.service.container;
 import com.military.service.container.module.impl.ModuleInstance;
 import org.springframework.context.ApplicationContext;
 
+import javax.servlet.http.HttpServletRequest;
 import java.io.File;
 import java.io.FileFilter;
 import java.io.IOException;
@@ -15,8 +16,9 @@ public class ModuleApplicationContainer implements IModuleApplicationContainer {
     public static final String MODULE_PROPERTIES = "META-INF/module.properties";
     public static final String MILITARY_CONTAINER_PATH = "military.container.path";
     public static final String MILITARY_CONTAINER_DIR = "military.container.dir";
+    public static final String MODULE_SPRING_XML = "module-base-spring.xml";
+    public static final String MILITARY_CONTAINER_BASE_PACKAGE = "military.container.base-package";
     private final ApplicationContext context;
-    private String path;
 
     private Map <String ,ModuleInstance> services= new HashMap<String ,ModuleInstance>();
 
@@ -59,39 +61,45 @@ public class ModuleApplicationContainer implements IModuleApplicationContainer {
     }
 
     private List<URL> getUrls(ApplicationContext ctx) {
-        String path = ctx.getEnvironment().getProperty(MILITARY_CONTAINER_PATH);
-        String dir = ctx.getEnvironment().getProperty(MILITARY_CONTAINER_DIR);
-        String[] paths = path.split(";");
         List<URL> urls = new ArrayList<>();
-        for(int i=0;i<paths.length;i++){
-            try {
-                urls.add(new URL(paths[i]));
-            } catch (MalformedURLException e) {
+        String path = ctx.getEnvironment().getProperty(MILITARY_CONTAINER_PATH);
+
+        if (path!=null && path.length()>0) {
+            String[] paths = path.split(";");
+
+            for (int i = 0; i < paths.length; i++) {
                 try {
-                    urls.add(new File(paths[i]).toURI().toURL());
-                } catch (MalformedURLException e1) {
-                    e1.printStackTrace();
-                }
+                    urls.add(new URL(paths[i]));
+                } catch (MalformedURLException e) {
+                    try {
+                        urls.add(new File(paths[i]).toURI().toURL());
+                    } catch (MalformedURLException e1) {
+                        e1.printStackTrace();
+                    }
 //                e.printStackTrace();
+                }
             }
         }
-        File dirf = new File(dir);
-        if (dirf.exists()) {
-            File[] files = dirf.listFiles(new FileFilter() {
-                @Override
-                public boolean accept(File pathname) {
-                    if (pathname.getName().endsWith(".jar")) {
-                        return true;
+        String dir = ctx.getEnvironment().getProperty(MILITARY_CONTAINER_DIR);
+        if (dir!=null && dir.length()>0) {
+            File dirf = new File(dir);
+            if (dirf.exists()) {
+                File[] files = dirf.listFiles(new FileFilter() {
+                    @Override
+                    public boolean accept(File pathname) {
+                        if (pathname.getName().endsWith(".jar")) {
+                            return true;
+                        }
+                        ;
+                        return false;
                     }
-                    ;
-                    return false;
-                }
-            });
-            for (int i = 0; i < files.length; i++) {
-                try {
-                    urls.add(files[i].toURI().toURL());
-                } catch (MalformedURLException e) {
-                    e.printStackTrace();
+                });
+                for (int i = 0; i < files.length; i++) {
+                    try {
+                        urls.add(files[i].toURI().toURL());
+                    } catch (MalformedURLException e) {
+                        e.printStackTrace();
+                    }
                 }
             }
         }
@@ -132,6 +140,22 @@ public class ModuleApplicationContainer implements IModuleApplicationContainer {
         }
 
 
+
+    }
+
+    @Override
+    public Object lookupHandler(String urlPath, HttpServletRequest request) throws Exception {
+
+        Iterator<String> it = services.keySet().iterator();
+        while(it.hasNext()){
+            String key = it.next();
+            ModuleInstance service = services.get(key);
+            Object handler = service.lookupHandler(urlPath,request);
+            if (handler!=null){
+                return handler;
+            }
+        }
+        return null;
 
     }
 

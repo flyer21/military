@@ -25,7 +25,9 @@ import org.springframework.context.support.AbstractXmlApplicationContext;
 import org.springframework.core.io.ClassPathResource;
 import org.springframework.core.io.Resource;
 import org.springframework.util.Assert;
+import org.springframework.web.context.WebApplicationContext;
 
+import javax.servlet.ServletContext;
 import java.util.List;
 
 /**
@@ -44,7 +46,7 @@ import java.util.List;
  * deliberately override certain bean definitions via an extra XML file.
  *
  * <p><b>This is a simple, one-stop shop convenience ApplicationContext.
- * Consider using the {@link GenericApplicationContext} class in combination
+ * Consider using the {@link  } class in combination
  * with an {@link org.springframework.beans.factory.xml.XmlBeanDefinitionReader}
  * for more flexible context setup.</b>
  *
@@ -52,9 +54,8 @@ import java.util.List;
  * @author Juergen Hoeller
  * @see #getResource
  * @see #getResourceByPath
- * @see GenericApplicationContext
  */
-public class ModuleApplicationContext extends AbstractXmlApplicationContext {
+public class ModuleApplicationContext extends AbstractXmlApplicationContext implements  WebApplicationContext {
 
     private Resource[] configResources;
 
@@ -213,6 +214,7 @@ public class ModuleApplicationContext extends AbstractXmlApplicationContext {
         return super.obtainFreshBeanFactory();
     }
 
+
     @Override
     protected BeanFactory getInternalParentBeanFactory() {
         return super.getInternalParentBeanFactory();
@@ -223,4 +225,12 @@ public class ModuleApplicationContext extends AbstractXmlApplicationContext {
         return this.configResources;
     }
 
+    @Override
+    public ServletContext getServletContext() {
+        System.out.print("getServletContext");
+        WebApplicationContext p = (WebApplicationContext) this.getParent();
+
+        return p.getServletContext();
+//        return this.getParent().getServlet;
+    }
 }

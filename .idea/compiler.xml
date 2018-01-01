@@ -12,6 +12,7 @@
         <module name="Eureka-client" />
         <module name="eureka-client" />
         <module name="eureka-server" />
+        <module name="oauth2-server" />
         <module name="serice-feign" />
         <module name="server-parent" />
         <module name="server-zipkin" />
@@ -36,6 +37,7 @@
       <module name="Eureka-client" target="1.6" />
       <module name="eureka-server" target="1.8" />
       <module name="military" target="1.8" />
+      <module name="oauth2-server" target="1.8" />
       <module name="serice-feign" target="1.6" />
       <module name="server-parent" target="1.8" />
       <module name="server-zipkin" target="1.8" />

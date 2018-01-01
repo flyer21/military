@@ -27,7 +27,6 @@ public class Rest1Controller {
     }
 
     @RequestMapping("/hi111")
-    @HystrixCommand(fallbackMethod = "hiError")
     public String callHome(){
         com.military.base.service.MiltaryServiceApplication a =null;
         LOG.info( "calling trace service-hi  ");
