@@ -5,49 +5,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8f4479ee-64cc-4c6b-8e01-3516932e6acd" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/keystore.jks" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcpkix_jdk15on_1_56.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcprov_jdk15on_1_56.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_core_asl_1_9_13.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_mapper_asl_1_9_13.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_security_1_5_9_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_oauth_spring_security_oauth2_2_0_14_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_config_4_2_3_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_core_4_2_3_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_jwt_1_0_8_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_web_4_2_3_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oauth2-server/oauth2-server.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oauth2-server/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oauth2-server/src/main/java/com/military/oauth2/server/AuthserverApplication.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/application.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/service-container/src/main/resources/META-INF/module.properties" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/service-hi/src/main/resources/META-INF/module-spring.xml" afterPath="$PROJECT_DIR$/service-container/src/main/resources/module-base-spring.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oauth2-server/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/templates/authorize.ftl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/templates/login.ftl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/service-container/src/main/java/com/military/service/container/MilitaryHandlerMapping.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/service-container/src/main/java/com/military/service/container/ModuleApplicationAutoConfiguration.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/service-container/src/main/java/com/military/service/container/ModuleApplicationContainerStarter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/service-container/src/main/resources/META-INF/spring.factories" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service-container/src/main/resources/META-INF/module.properties" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config-server/config-server.iml" afterPath="$PROJECT_DIR$/config-server/config-server.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eureka-client/eureka-client.iml" afterPath="$PROJECT_DIR$/eureka-client/eureka-client.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eureka-server/eureka-server.iml" afterPath="$PROJECT_DIR$/eureka-server/eureka-server.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/military.iml" afterPath="$PROJECT_DIR$/military.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server-zipkin/server-zipkin.iml" afterPath="$PROJECT_DIR$/server-zipkin/server-zipkin.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpringcloudConfig/zuul-server.yml" afterPath="$PROJECT_DIR$/SpringcloudConfig/zuul-server.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/oauth2-server/oauth2-server.iml" afterPath="$PROJECT_DIR$/oauth2-server/oauth2-server.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/oauth2-server/pom.xml" afterPath="$PROJECT_DIR$/oauth2-server/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/oauth2-server/src/main/java/com/military/oauth2/server/AuthserverApplication.java" afterPath="$PROJECT_DIR$/oauth2-server/src/main/java/com/military/oauth2/server/AuthserverApplication.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/oauth2-server/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/application.yml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service-container/service-container.iml" afterPath="$PROJECT_DIR$/service-container/service-container.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service-container/src/main/java/com/military/service/container/IModuleApplicationContainer.java" afterPath="$PROJECT_DIR$/service-container/src/main/java/com/military/service/container/IModuleApplicationContainer.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service-container/src/main/java/com/military/service/container/ModuleApplicationContainer.java" afterPath="$PROJECT_DIR$/service-container/src/main/java/com/military/service/container/ModuleApplicationContainer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service-container/src/main/java/com/military/service/container/module/IModuleInstance.java" afterPath="$PROJECT_DIR$/service-container/src/main/java/com/military/service/container/module/IModuleInstance.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service-container/src/main/java/com/military/service/container/module/impl/ModuleApplicationContext.java" afterPath="$PROJECT_DIR$/service-container/src/main/java/com/military/service/container/module/impl/ModuleApplicationContext.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service-container/src/main/java/com/military/service/container/module/impl/ModuleInstance.java" afterPath="$PROJECT_DIR$/service-container/src/main/java/com/military/service/container/module/impl/ModuleInstance.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service-feign/service-feign.iml" afterPath="$PROJECT_DIR$/service-feign/service-feign.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service-hi/service-hi.iml" afterPath="$PROJECT_DIR$/service-hi/service-hi.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service-container/src/test/java/com/military/service/container/test/TestContainer.java" afterPath="$PROJECT_DIR$/service-container/src/test/java/com/military/service/container/test/TestContainer.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service-hi/src/main/java/com/military/server/hi/Rest1Controller.java" afterPath="$PROJECT_DIR$/service-hi/src/main/java/com/military/server/hi/Rest1Controller.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service-lucy/pom.xml" afterPath="$PROJECT_DIR$/service-lucy/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service-lucy/service-lucy.iml" afterPath="$PROJECT_DIR$/service-lucy/service-lucy.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service-miya/service-miya.iml" afterPath="$PROJECT_DIR$/service-miya/service-miya.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service-miya/src/main/java/com/military/server/miya/ServiceMiyaApplication.java" afterPath="$PROJECT_DIR$/service-miya/src/main/java/com/military/server/miya/ServiceMiyaApplication.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service-ribbon/service-ribbon.iml" afterPath="$PROJECT_DIR$/service-ribbon/service-ribbon.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service-starter-parent/service-starter-parent.iml" afterPath="$PROJECT_DIR$/service-starter-parent/service-starter-parent.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service-starter/service-starter.iml" afterPath="$PROJECT_DIR$/service-starter/service-starter.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service-starter/src/main/java/com/military/base/service/MiltaryServiceApplication.java" afterPath="$PROJECT_DIR$/service-starter/src/main/java/com/military/base/service/MiltaryServiceApplication.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zuul-server/pom.xml" afterPath="$PROJECT_DIR$/zuul-server/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zuul-server/src/main/java/com/military/server/zuul/ZuulServerApplication.java" afterPath="$PROJECT_DIR$/zuul-server/src/main/java/com/military/server/zuul/ZuulServerApplication.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zuul-server/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/zuul-server/src/main/resources/application.yml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zuul-server/zuul-server.iml" afterPath="$PROJECT_DIR$/zuul-server/zuul-server.iml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -100,7 +84,60 @@
     <favorites_list name="military" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service-lucy/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/zuul-server/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="6" column="24" lean-forward="false" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-342">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AuthserverApplication.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/oauth2-server/src/main/java/com/military/oauth2/server/AuthserverApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="71" column="5" lean-forward="false" selection-start-line="71" selection-start-column="5" selection-end-line="71" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/oauth2-server/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="419">
+              <caret line="28" column="17" lean-forward="false" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -113,20 +150,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>222</find>
-      <find>2222</find>
-      <find>1000</find>
-      <find>eurek</find>
-      <find>applicationRunner</find>
-      <find>eureka-core</find>
-      <find>dev</find>
-      <find>path</find>
-      <find>ribbonServerList</find>
-      <find>SpringcloudConfig</find>
-      <find>he working tree is not clean</find>
-      <find>applicationContextClass</find>
-      <find>rest1</find>
-      <find>determineEmbeddedServletContainerFactoryClass</find>
       <find>military.properti</find>
       <find>message</find>
       <find>servletContext</find>
@@ -143,6 +166,20 @@
       <find>WelcomePageHandlerMapping</find>
       <find>eureka</find>
       <find>TokenConverter</find>
+      <find>ModuleApplicationContainer</find>
+      <find>container</find>
+      <find>base</find>
+      <find>rRunner</find>
+      <find>ModuleApplicationContainerRunner</find>
+      <find>AutoConfiguration</find>
+      <find>ModuleApplicationAutoConfiguration</find>
+      <find>Configuration</find>
+      <find>module</find>
+      <find>toConfiguration</find>
+      <find>start</find>
+      <find>getServletContextAAA</find>
+      <find>login</find>
+      <find>OAuth2Config</find>
     </findStrings>
     <dirStrings>
       <dir>C:\repo\com\netflix\eureka\eureka-core\1.7.0</dir>
@@ -160,28 +197,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/config-server/src/main/java/com/military/config/server/ConfigServerApplication.java" />
-        <option value="$PROJECT_DIR$/service-container/src/main/java/ServiceContainer.java" />
-        <option value="$PROJECT_DIR$/service-container/src/test/java/TestContainer.java" />
-        <option value="$PROJECT_DIR$/service-container/src/main/java/com/military/service/container/IServiceContainer.java" />
-        <option value="$PROJECT_DIR$/service-container/src/main/java/com/military/service/container/ServiceContainer.java" />
-        <option value="$PROJECT_DIR$/service-hi/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/service-hi/src/main/resources/aa" />
-        <option value="$PROJECT_DIR$/service-hi/src/main/resources/META-INF/military.properties" />
-        <option value="$PROJECT_DIR$/service-container/src/main/java/com/military/service/container/ServiceInstance.java" />
-        <option value="$PROJECT_DIR$/service-container/src/main/java/com/military/service/container/IModuleContainer.java" />
-        <option value="$PROJECT_DIR$/service-container/src/test/java/com/military/service/container/test/TestContainer.java" />
-        <option value="$PROJECT_DIR$/config-server/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/service-container/src/main/java/com/military/service/container/ModuleContext.java" />
-        <option value="$PROJECT_DIR$/service-container/src/main/java/com/military/service/container/ModuleInstance.java" />
-        <option value="$PROJECT_DIR$/service-hi/src/main/java/com/military/server/hi/ServiceHiApplication.java" />
-        <option value="$PROJECT_DIR$/service-parent/pom.xml" />
-        <option value="$PROJECT_DIR$/service-starter/pom.xml" />
-        <option value="$PROJECT_DIR$/service-hi/pom.xml" />
-        <option value="$PROJECT_DIR$/service-container/pom.xml" />
-        <option value="$PROJECT_DIR$/service-starter-parent/pom.xml" />
-        <option value="$PROJECT_DIR$/zuul-server/pom.xml" />
-        <option value="$PROJECT_DIR$/service-container/src/main/java/com/military/service/container/ModuleContainer.java" />
         <option value="$PROJECT_DIR$/service-container/src/main/java/com/military/service/container/context/ModuleContext.java" />
         <option value="$PROJECT_DIR$/service-container/src/main/java/com/military/service/container/module/ModuleInstance.java" />
         <option value="$PROJECT_DIR$/service-container/src/main/java/com/military/service/container/context/ModuleApplicationContext.java" />
@@ -198,19 +213,41 @@
         <option value="$PROJECT_DIR$/service-hi/src/main/resources/META-INF/module-spring.xml" />
         <option value="$PROJECT_DIR$/SpringcloudConfig/service-base.yml" />
         <option value="$PROJECT_DIR$/service-hi/src/main/resources/META-INF/module.properties" />
-        <option value="$PROJECT_DIR$/service-container/src/main/java/com/military/service/container/module/impl/ModuleApplicationContext.java" />
-        <option value="$PROJECT_DIR$/service-starter/src/main/java/com/military/base/service/MiltaryServiceApplication.java" />
         <option value="$PROJECT_DIR$/service-container/src/main/java/com/military/service/container/IModuleApplicationContainer.java" />
         <option value="$PROJECT_DIR$/service-container/src/main/java/com/military/service/container/module/IModuleInstance.java" />
-        <option value="$PROJECT_DIR$/service-container/src/main/java/com/military/service/container/module/impl/ModuleInstance.java" />
-        <option value="$PROJECT_DIR$/service-container/src/main/java/com/military/service/container/ModuleApplicationContainer.java" />
-        <option value="$PROJECT_DIR$/service-hi/src/main/java/com/military/server/hi/Rest1Controller.java" />
         <option value="$PROJECT_DIR$/service-miya/src/main/java/com/military/server/miya/ServiceMiyaApplication.java" />
         <option value="$PROJECT_DIR$/service-container/src/main/resources/module-base-spring.xml" />
         <option value="$PROJECT_DIR$/oauth2-server/src/main/java/AuthorizationServerConfig.java" />
-        <option value="$PROJECT_DIR$/oauth2-server/pom.xml" />
-        <option value="$PROJECT_DIR$/oauth2-server/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/service-container/src/main/java/com/military/service/container/module/impl/ModuleApplicationContext.java" />
+        <option value="$PROJECT_DIR$/service-container/src/test/java/com/military/service/container/test/TestContainer.java" />
+        <option value="$PROJECT_DIR$/service-starter/src/main/java/com/military/base/service/ContainerStarter.java" />
+        <option value="$PROJECT_DIR$/service-container/src/main/java/com/military/service/container/ContainerStarter.java" />
+        <option value="$PROJECT_DIR$/service-container/src/main/java/com/military/service/container/service/ModuleApplicationContainerRunner.java" />
+        <option value="$PROJECT_DIR$/service-container/src/main/java/com/military/service/container/HystrixAutoConfiguration.java" />
+        <option value="$PROJECT_DIR$/service-container/src/main/java/com/military/service/container/EnableHystrix.java" />
+        <option value="$PROJECT_DIR$/service-container/src/main/java/com/military/service/container/ModuleApplicationContainer.java" />
+        <option value="$PROJECT_DIR$/service-container/src/main/java/com/military/service/container/MilitrayHandlerMapping.java" />
+        <option value="$PROJECT_DIR$/service-container/src/main/java/com/military/service/container/ModuleApplicationContainerRunner.java" />
+        <option value="$PROJECT_DIR$/service-container/src/main/java/com/military/service/container/ModuleApplicationContainerStarter.java" />
+        <option value="$PROJECT_DIR$/service-container/src/main/java/com/military/service/container/EnableModuleApplication.java" />
+        <option value="$PROJECT_DIR$/service-container/src/main/resources/META-INF/spring.factories" />
+        <option value="$PROJECT_DIR$/service-starter/src/main/java/com/military/base/service/MiltaryServiceApplication.java" />
+        <option value="$PROJECT_DIR$/service-container/src/main/resources/META-INF/module.properties" />
+        <option value="$PROJECT_DIR$/service-container/src/main/java/com/military/service/container/ModuleApplicationAutoConfiguration.java" />
+        <option value="$PROJECT_DIR$/service-container/src/main/java/com/military/service/container/module/impl/ModuleInstance.java" />
+        <option value="$PROJECT_DIR$/service-hi/src/main/java/com/military/server/hi/Rest1Controller.java" />
+        <option value="$PROJECT_DIR$/oauth2-server/src/main/resources/static/aa.js" />
+        <option value="$PROJECT_DIR$/oauth2-server/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/oauth2-server/src/main/resources/static/dist/index.html" />
+        <option value="$PROJECT_DIR$/oauth2-server/src/main/resources/static/config/index.js" />
+        <option value="$PROJECT_DIR$/zuul-server/src/main/java/com/military/server/zuul/ZuulServerApplication.java" />
+        <option value="$PROJECT_DIR$/SpringcloudConfig/zuul-server.yml" />
+        <option value="$PROJECT_DIR$/zuul-server/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/service-lucy/pom.xml" />
+        <option value="$PROJECT_DIR$/zuul-server/pom.xml" />
+        <option value="$PROJECT_DIR$/oauth2-server/pom.xml" />
+        <option value="$PROJECT_DIR$/oauth2-server/src/main/java/com/military/oauth2/server/AuthserverApplication.java" />
       </list>
     </option>
   </component>
@@ -327,9 +364,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -340,30 +374,25 @@
             <path>
               <item name="military" type="b2602c69:ProjectViewProjectNode" />
               <item name="military" type="462c0819:PsiDirectoryNode" />
-              <item name="service-ribbon" type="462c0819:PsiDirectoryNode" />
+              <item name="oauth2-server" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="military" type="b2602c69:ProjectViewProjectNode" />
               <item name="military" type="462c0819:PsiDirectoryNode" />
-              <item name="service-starter" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="military" type="b2602c69:ProjectViewProjectNode" />
-              <item name="military" type="462c0819:PsiDirectoryNode" />
-              <item name="service-starter" type="462c0819:PsiDirectoryNode" />
+              <item name="oauth2-server" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="military" type="b2602c69:ProjectViewProjectNode" />
               <item name="military" type="462c0819:PsiDirectoryNode" />
-              <item name="service-starter" type="462c0819:PsiDirectoryNode" />
+              <item name="oauth2-server" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="military" type="b2602c69:ProjectViewProjectNode" />
               <item name="military" type="462c0819:PsiDirectoryNode" />
-              <item name="service-starter" type="462c0819:PsiDirectoryNode" />
+              <item name="oauth2-server" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -371,22 +400,27 @@
             <path>
               <item name="military" type="b2602c69:ProjectViewProjectNode" />
               <item name="military" type="462c0819:PsiDirectoryNode" />
-              <item name="service-starter" type="462c0819:PsiDirectoryNode" />
+              <item name="oauth2-server" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="military" type="b2602c69:ProjectViewProjectNode" />
               <item name="military" type="462c0819:PsiDirectoryNode" />
-              <item name="service-starter" type="462c0819:PsiDirectoryNode" />
+              <item name="oauth2-server" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="military" type="b2602c69:ProjectViewProjectNode" />
+              <item name="military" type="462c0819:PsiDirectoryNode" />
+              <item name="zuul-server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="military" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
             <path>
@@ -406,14 +440,6 @@
               <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
               <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="military" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="io" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="military" type="b2602c69:ProjectViewProjectNode" />
@@ -437,25 +463,15 @@
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
               <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
               <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="net" type="462c0819:PsiDirectoryNode" />
+              <item name="sun" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="military" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
               <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
               <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="military" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-              <item name="concurrent" type="462c0819:PsiDirectoryNode" />
+              <item name="sun" type="462c0819:PsiDirectoryNode" />
+              <item name="reflect" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="military" type="b2602c69:ProjectViewProjectNode" />
@@ -478,54 +494,52 @@
             <path>
               <item name="military" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: ch.qos.logback:logback-classic:1.1.11" type="70bed36:NamedLibraryElementNode" />
-              <item name="logback-classic-1.1.11.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="classic" type="462c0819:PsiDirectoryNode" />
-              <item name="spi" type="462c0819:PsiDirectoryNode" />
+              <item name="Maven: com.netflix.eureka:eureka-client:1.7.0" type="70bed36:NamedLibraryElementNode" />
             </path>
             <path>
               <item name="military" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: ch.qos.logback:logback-core:1.1.11" type="70bed36:NamedLibraryElementNode" />
+              <item name="Maven: com.netflix.eureka:eureka-client:1.7.0" type="70bed36:NamedLibraryElementNode" />
+              <item name="eureka-client-1.7.0.jar" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="military" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: ch.qos.logback:logback-core:1.1.11" type="70bed36:NamedLibraryElementNode" />
-              <item name="logback-core-1.1.11.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="Maven: com.netflix.eureka:eureka-client:1.7.0" type="70bed36:NamedLibraryElementNode" />
+              <item name="eureka-client-1.7.0.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="netflix" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="military" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: ch.qos.logback:logback-core:1.1.11" type="70bed36:NamedLibraryElementNode" />
-              <item name="logback-core-1.1.11.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="Maven: com.netflix.eureka:eureka-client:1.7.0" type="70bed36:NamedLibraryElementNode" />
+              <item name="eureka-client-1.7.0.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="netflix" type="462c0819:PsiDirectoryNode" />
+              <item name="appinfo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="military" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: ch.qos.logback:logback-core:1.1.11" type="70bed36:NamedLibraryElementNode" />
-              <item name="logback-core-1.1.11.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="Maven: com.netflix.eureka:eureka-client:1.7.0" type="70bed36:NamedLibraryElementNode" />
+              <item name="eureka-client-1.7.0.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="netflix" type="462c0819:PsiDirectoryNode" />
+              <item name="appinfo" type="462c0819:PsiDirectoryNode" />
+              <item name="providers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="military" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: com.netflix.eureka:eureka-core:1.7.0" type="70bed36:NamedLibraryElementNode" />
+              <item name="Maven: com.netflix.eureka:eureka-client:1.7.0" type="70bed36:NamedLibraryElementNode" />
+              <item name="eureka-client-1.7.0.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="netflix" type="462c0819:PsiDirectoryNode" />
+              <item name="discovery" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="military" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: com.netflix.eureka:eureka-core:1.7.0" type="70bed36:NamedLibraryElementNode" />
-              <item name="eureka-core-1.7.0.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="military" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: com.netflix.eureka:eureka-core:1.7.0" type="70bed36:NamedLibraryElementNode" />
-              <item name="eureka-core-1.7.0.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka" type="462c0819:PsiDirectoryNode" />
+              <item name="Maven: com.netflix.eureka:eureka-client:1.7.0" type="70bed36:NamedLibraryElementNode" />
+              <item name="eureka-client-1.7.0.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="military" type="b2602c69:ProjectViewProjectNode" />
@@ -543,23 +557,32 @@
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
               <item name="Maven: com.netflix.hystrix:hystrix-javanica:1.5.12" type="70bed36:NamedLibraryElementNode" />
               <item name="hystrix-javanica-1.5.12.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="javanica" type="462c0819:PsiDirectoryNode" />
+              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="military" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: com.netflix.hystrix:hystrix-javanica:1.5.12" type="70bed36:NamedLibraryElementNode" />
-              <item name="hystrix-javanica-1.5.12.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="javanica" type="462c0819:PsiDirectoryNode" />
-              <item name="annotation" type="462c0819:PsiDirectoryNode" />
+              <item name="Maven: io.zipkin.java:zipkin-autoconfigure-ui:2.3.1" type="70bed36:NamedLibraryElementNode" />
             </path>
             <path>
               <item name="military" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: com.netflix.hystrix:hystrix-javanica:1.5.12" type="70bed36:NamedLibraryElementNode" />
-              <item name="hystrix-javanica-1.5.12.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="javanica" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
+              <item name="Maven: io.zipkin.java:zipkin-autoconfigure-ui:2.3.1" type="70bed36:NamedLibraryElementNode" />
+              <item name="zipkin-autoconfigure-ui-2.3.1.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="military" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: io.zipkin.java:zipkin-autoconfigure-ui:2.3.1" type="70bed36:NamedLibraryElementNode" />
+              <item name="zipkin-autoconfigure-ui-2.3.1.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="military" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: io.zipkin.java:zipkin-autoconfigure-ui:2.3.1" type="70bed36:NamedLibraryElementNode" />
+              <item name="zipkin-autoconfigure-ui-2.3.1.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="military" type="b2602c69:ProjectViewProjectNode" />
@@ -694,6 +717,24 @@
             <path>
               <item name="military" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.boot:spring-boot:1.5.9.RELEASE" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="military" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.boot:spring-boot:1.5.9.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-boot-1.5.9.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="military" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.boot:spring-boot:1.5.9.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-boot-1.5.9.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="military" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
               <item name="Maven: org.springframework.boot:spring-boot-actuator:1.5.9.RELEASE" type="70bed36:NamedLibraryElementNode" />
             </path>
             <path>
@@ -737,6 +778,59 @@
             <path>
               <item name="military" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.boot:spring-boot-autoconfigure:1.5.9.RELEASE" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="military" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.boot:spring-boot-autoconfigure:1.5.9.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-boot-autoconfigure-1.5.9.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="military" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.boot:spring-boot-autoconfigure:1.5.9.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-boot-autoconfigure-1.5.9.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="autoconfigure" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="military" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.boot:spring-boot-autoconfigure:1.5.9.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-boot-autoconfigure-1.5.9.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="autoconfigure" type="462c0819:PsiDirectoryNode" />
+              <item name="aop" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="military" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.boot:spring-boot-autoconfigure:1.5.9.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-boot-autoconfigure-1.5.9.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="autoconfigure" type="462c0819:PsiDirectoryNode" />
+              <item name="security" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="military" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.boot:spring-boot-autoconfigure:1.5.9.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-boot-autoconfigure-1.5.9.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="autoconfigure" type="462c0819:PsiDirectoryNode" />
+              <item name="security" type="462c0819:PsiDirectoryNode" />
+              <item name="oauth2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="military" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.boot:spring-boot-autoconfigure:1.5.9.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-boot-autoconfigure-1.5.9.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="autoconfigure" type="462c0819:PsiDirectoryNode" />
+              <item name="security" type="462c0819:PsiDirectoryNode" />
+              <item name="oauth2" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="military" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
               <item name="Maven: org.springframework.boot:spring-boot-test:1.5.9.RELEASE" type="70bed36:NamedLibraryElementNode" />
             </path>
             <path>
@@ -759,6 +853,67 @@
               <item name="spring-boot-test-1.5.9.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="context" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="military" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.cloud:spring-cloud-commons:1.3.0.RELEASE" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="military" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.cloud:spring-cloud-commons:1.3.0.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-cloud-commons-1.3.0.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="military" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.cloud:spring-cloud-commons:1.3.0.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-cloud-commons-1.3.0.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="military" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.cloud:spring-cloud-commons:1.3.0.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-cloud-commons-1.3.0.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="military" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.cloud:spring-cloud-commons:1.3.0.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-cloud-commons-1.3.0.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="circuitbreaker" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="military" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.cloud:spring-cloud-commons:1.3.0.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-cloud-commons-1.3.0.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="discovery" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="military" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.cloud:spring-cloud-commons:1.3.0.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-cloud-commons-1.3.0.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="commons" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="military" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.cloud:spring-cloud-commons:1.3.0.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-cloud-commons-1.3.0.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="commons" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="military" type="b2602c69:ProjectViewProjectNode" />
@@ -797,6 +952,32 @@
             <path>
               <item name="military" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.cloud:spring-cloud-context:1.3.0.RELEASE" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="military" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.cloud:spring-cloud-context:1.3.0.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-cloud-context-1.3.0.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="military" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.cloud:spring-cloud-context:1.3.0.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-cloud-context-1.3.0.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="military" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.cloud:spring-cloud-context:1.3.0.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-cloud-context-1.3.0.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="military" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
               <item name="Maven: org.springframework.cloud:spring-cloud-netflix-core:1.4.0.RELEASE" type="70bed36:NamedLibraryElementNode" />
             </path>
             <path>
@@ -804,6 +985,13 @@
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
               <item name="Maven: org.springframework.cloud:spring-cloud-netflix-core:1.4.0.RELEASE" type="70bed36:NamedLibraryElementNode" />
               <item name="spring-cloud-netflix-core-1.4.0.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="military" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.cloud:spring-cloud-netflix-core:1.4.0.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-cloud-netflix-core-1.4.0.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="military" type="b2602c69:ProjectViewProjectNode" />
@@ -834,16 +1022,7 @@
               <item name="Maven: org.springframework.cloud:spring-cloud-netflix-core:1.4.0.RELEASE" type="70bed36:NamedLibraryElementNode" />
               <item name="spring-cloud-netflix-core-1.4.0.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
               <item name="netflix" type="462c0819:PsiDirectoryNode" />
-              <item name="zuul" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="military" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework.cloud:spring-cloud-netflix-core:1.4.0.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-cloud-netflix-core-1.4.0.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="netflix" type="462c0819:PsiDirectoryNode" />
-              <item name="zuul" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="hystrix" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="military" type="b2602c69:ProjectViewProjectNode" />
@@ -855,6 +1034,13 @@
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
               <item name="Maven: org.springframework.cloud:spring-cloud-netflix-eureka-client:1.4.0.RELEASE" type="70bed36:NamedLibraryElementNode" />
               <item name="spring-cloud-netflix-eureka-client-1.4.0.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="military" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.cloud:spring-cloud-netflix-eureka-client:1.4.0.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-cloud-netflix-eureka-client-1.4.0.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="military" type="b2602c69:ProjectViewProjectNode" />
@@ -904,7 +1090,26 @@
               <item name="Maven: org.springframework.cloud:spring-cloud-sleuth-core:1.3.0.RELEASE" type="70bed36:NamedLibraryElementNode" />
               <item name="spring-cloud-sleuth-core-1.3.0.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
               <item name="sleuth" type="462c0819:PsiDirectoryNode" />
-              <item name="sampler" type="462c0819:PsiDirectoryNode" />
+              <item name="instrument" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="military" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.cloud:spring-cloud-sleuth-core:1.3.0.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-cloud-sleuth-core-1.3.0.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="sleuth" type="462c0819:PsiDirectoryNode" />
+              <item name="instrument" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="military" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.cloud:spring-cloud-sleuth-core:1.3.0.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-cloud-sleuth-core-1.3.0.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="sleuth" type="462c0819:PsiDirectoryNode" />
+              <item name="instrument" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="military" type="b2602c69:ProjectViewProjectNode" />
@@ -1010,7 +1215,32 @@
               <item name="spring-context-4.3.13.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
               <item name="springframework" type="462c0819:PsiDirectoryNode" />
               <item name="context" type="462c0819:PsiDirectoryNode" />
+              <item name="event" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="military" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-context:4.3.13.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-context-4.3.13.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+              <item name="context" type="462c0819:PsiDirectoryNode" />
               <item name="support" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="military" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-context:4.3.13.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-context-4.3.13.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+              <item name="scripting" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="military" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-context:4.3.13.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-context-4.3.13.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+              <item name="stereotype" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="military" type="b2602c69:ProjectViewProjectNode" />
@@ -1160,6 +1390,15 @@
               <item name="spring-web-4.3.13.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
               <item name="springframework" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="filter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="military" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-web:4.3.13.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-web-4.3.13.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
               <item name="method" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -1271,7 +1510,128 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="military" type="58d84e3e:PackageViewProjectNode" />
+              <item name="oauth2-server" type="616d4139:PackageViewModuleNode" />
+            </path>
+            <path>
+              <item name="military" type="58d84e3e:PackageViewProjectNode" />
+              <item name="oauth2-server" type="616d4139:PackageViewModuleNode" />
+              <item name="Libraries" type="5c3f07af:PackageViewLibrariesNode" />
+            </path>
+            <path>
+              <item name="military" type="58d84e3e:PackageViewProjectNode" />
+              <item name="oauth2-server" type="616d4139:PackageViewModuleNode" />
+              <item name="Libraries" type="5c3f07af:PackageViewLibrariesNode" />
+              <item name="org" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="military" type="58d84e3e:PackageViewProjectNode" />
+              <item name="oauth2-server" type="616d4139:PackageViewModuleNode" />
+              <item name="Libraries" type="5c3f07af:PackageViewLibrariesNode" />
+              <item name="org" type="1f31426a:PackageElementNode" />
+              <item name="springframework" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="military" type="58d84e3e:PackageViewProjectNode" />
+              <item name="oauth2-server" type="616d4139:PackageViewModuleNode" />
+              <item name="Libraries" type="5c3f07af:PackageViewLibrariesNode" />
+              <item name="org" type="1f31426a:PackageElementNode" />
+              <item name="springframework" type="1f31426a:PackageElementNode" />
+              <item name="security" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="military" type="58d84e3e:PackageViewProjectNode" />
+              <item name="oauth2-server" type="616d4139:PackageViewModuleNode" />
+              <item name="Libraries" type="5c3f07af:PackageViewLibrariesNode" />
+              <item name="org" type="1f31426a:PackageElementNode" />
+              <item name="springframework" type="1f31426a:PackageElementNode" />
+              <item name="security" type="1f31426a:PackageElementNode" />
+              <item name="web" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="military" type="58d84e3e:PackageViewProjectNode" />
+              <item name="oauth2-server" type="616d4139:PackageViewModuleNode" />
+              <item name="Libraries" type="5c3f07af:PackageViewLibrariesNode" />
+              <item name="org" type="1f31426a:PackageElementNode" />
+              <item name="springframework" type="1f31426a:PackageElementNode" />
+              <item name="security" type="1f31426a:PackageElementNode" />
+              <item name="web" type="1f31426a:PackageElementNode" />
+              <item name="firewall" type="1f31426a:PackageElementNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <expand>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="military" type="cbb8eebc:String" user="military" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="oauth2-server" type="cbb8eebc:String" user="oauth2-server" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="oauth2-server" type="cbb8eebc:String" user="oauth2-server" />
+              <item name="oauth2-server" type="cbb8eebc:String" user="oauth2-server" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="oauth2-server" type="cbb8eebc:String" user="oauth2-server" />
+              <item name="oauth2-server" type="cbb8eebc:String" user="oauth2-server" />
+              <item name="src/main" type="cbb8eebc:String" user="src/main" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="oauth2-server" type="cbb8eebc:String" user="oauth2-server" />
+              <item name="oauth2-server" type="cbb8eebc:String" user="oauth2-server" />
+              <item name="src/main" type="cbb8eebc:String" user="src/main" />
+              <item name="java" type="cbb8eebc:String" user="java" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="oauth2-server" type="cbb8eebc:String" user="oauth2-server" />
+              <item name="oauth2-server" type="cbb8eebc:String" user="oauth2-server" />
+              <item name="src/main" type="cbb8eebc:String" user="src/main" />
+              <item name="java" type="cbb8eebc:String" user="java" />
+              <item name="com/military/oauth2/server" type="cbb8eebc:String" user="com/military/oauth2/server" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="oauth2-server" type="cbb8eebc:String" user="oauth2-server" />
+              <item name="oauth2-server" type="cbb8eebc:String" user="oauth2-server" />
+              <item name="src/main" type="cbb8eebc:String" user="src/main" />
+              <item name="resources" type="cbb8eebc:String" user="resources" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="oauth2-server" type="cbb8eebc:String" user="oauth2-server" />
+              <item name="oauth2-server" type="cbb8eebc:String" user="oauth2-server" />
+              <item name="src/main" type="cbb8eebc:String" user="src/main" />
+              <item name="resources" type="cbb8eebc:String" user="resources" />
+              <item name="static" type="cbb8eebc:String" user="static" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="oauth2-server" type="cbb8eebc:String" user="oauth2-server" />
+              <item name="oauth2-server" type="cbb8eebc:String" user="oauth2-server" />
+              <item name="src/main" type="cbb8eebc:String" user="src/main" />
+              <item name="resources" type="cbb8eebc:String" user="resources" />
+              <item name="templates" type="cbb8eebc:String" user="templates" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="AndroidView" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1279,7 +1639,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="SearchEverywhereHistoryKey" value="WelcomePageHandlerMapping&#9;PSI&#9;JAVA://org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration.WelcomePageHandlerMapping&#10;BeanNameUrlHandlerMapping&#9;PSI&#9;JAVA://org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping&#10;s.w.s.m.m.a.RequestMappingHandlerMapping &#9;PSI&#9;JAVA://org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping&#10;s.w.s.m.m.a.RequestMappingHandlerMapping&#9;PSI&#9;JAVA://org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping&#10;EndpointHandlerMapping&#9;FILE&#9;jar://C:/repo/org/springframework/boot/spring-boot-actuator/1.5.9.RELEASE/spring-boot-actuator-1.5.9.RELEASE-sources.jar!/org/springframework/boot/actuate/endpoint/mvc/EndpointHandlerMapping.java&#10;setServletContext&#9;PSI&#9;JAVA://org.apache.catalina.core.ApplicationContext#setNewServletContextListenerAllowed&#10;RequestMappingHandlerMapping&#9;PSI&#9;JAVA://org.springframework.boot.autoconfigure.web.WebMvcRegistrations#getRequestMappingHandlerMapping&#10;module-sp&#9;FILE&#9;file://C:/Users/文舞/IdeaProjects/military/service-hi/src/main/resources/META-INF/module-spring.xml&#10;modul&#9;FILE&#9;file://C:/Users/文舞/IdeaProjects/military/service-hi/src/main/resources/META-INF/module-spring.xml&#10;moduleSpringConfiguration&#9;FILE&#9;file://C:/Users/文舞/IdeaProjects/military/service-container/src/main/java/com/military/service/container/module/impl/ModuleSpringConfiguration.java&#10;AnnotationConfigApplicationContext&#9;FILE&#9;jar://C:/repo/org/springframework/spring-context/4.3.13.RELEASE/spring-context-4.3.13.RELEASE-sources.jar!/org/springframework/context/annotation/AnnotationConfigApplicationContext.java&#10;createChildManagementContext&#9;PSI&#9;JAVA://org.springframework.boot.actuate.autoconfigure.EndpointWebMvcAutoConfiguration#createChildManagementContext&#10;MultipleJGitEnvironmentRepository&#9;PSI&#9;JAVA://org.springframework.cloud.config.server.environment.MultipleJGitEnvironmentRepository&#10;AnnotationConfigEmbeddedWebApplicationContext&#9;PSI&#9;JAVA://org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext&#10;format&#9;ACTION&#9;ReformatCode&#10;classpathconte&#9;PSI&#9;JAVA://org.springframework.context.support.ClassPathXmlApplicationContext&#10;eur*properties&#9;FILE&#9;jar://C:/repo/com/netflix/eureka/eureka-core/1.7.0/eureka-core-1.7.0-sources.jar!/META-INF/eureka-core.properties&#10;military&#9;FILE&#9;file://C:/Users/文舞/IdeaProjects/military/military.iml&#10;*properties&#9;PSI&#9;JAVA://com.military.service.container.ServiceInstance#properties&#10;*prop&#9;PSI&#9;JAVA://org.springframework.cloud.netflix.archaius.ArchaiusAutoConfiguration.PropagateEventsConfiguration&#10;classpath&#9;PSI&#9;JAVA://org.mockito.internal.configuration.ClassPathLoader&#10;urlreso&#9;PSI&#9;JAVA://org.springframework.core.io.UrlResource&#10;document&#9;ACTION&#9;QuickJavaDoc&#10;view&#9;ACTION&#9;CodeEditorViewGroup&#10;eureka-co&#9;FILE&#9;jar://C:/repo/com/netflix/eureka/eureka-core/1.7.0/eureka-core-1.7.0-sources.jar!/META-INF/eureka-core.properties&#10;SpringApplicationConfiguration&#9;FILE&#9;jar://C:/repo/org/springframework/boot/spring-boot-autoconfigure/1.5.9.RELEASE/spring-boot-autoconfigure-1.5.9.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/admin/SpringApplicationAdminJmxAutoConfiguration.java&#10;NativeEnvironmentRepository&#9;FILE&#9;jar://C:/repo/org/springframework/cloud/spring-cloud-config-server/1.4.0.RELEASE/spring-cloud-config-server-1.4.0.RELEASE.jar!/org/springframework/cloud/config/server/environment/NativeEnvironmentRepository.class&#10;ZuulServerApplication&#9;PSI&#9;JAVA://com.military.server.zuul.ZuulServerApplication&#10;ServiceMiyaApplication&#9;FILE&#9;file://C:/Users/文舞/IdeaProjects/military/service-miya/src/main/java/com/military/server/miya/ServiceMiyaApplication.java&#10;ArchaiusAutoConfiguration&#9;PSI&#9;JAVA://org.springframework.cloud.netflix.archaius.ArchaiusAutoConfiguration" />
+    <property name="SearchEverywhereHistoryKey" value="EnableOAuth2Sso&#9;FILE&#9;jar://C:/repo/org/springframework/boot/spring-boot-autoconfigure/1.5.9.RELEASE/spring-boot-autoconfigure-1.5.9.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/security/oauth2/client/EnableOAuth2Sso.java&#10;DaoAuthenticationProvider&#9;PSI&#9;JAVA://org.springframework.security.authentication.dao.DaoAuthenticationProvider&#10;_csrf&#9;PSI&#9;JAVA://org.springframework.security.web.csrf.CookieCsrfTokenRepository#DEFAULT_CSRF_COOKIE_NAME&#10;Rest1Controller&#9;FILE&#9;file://C:/Users/文舞/IdeaProjects/military/service-hi/src/main/java/com/military/server/hi/Rest1Controller.java&#10;enable&#9;FILE&#9;jar://C:/repo/org/springframework/cloud/spring-cloud-netflix-core/1.4.0.RELEASE/spring-cloud-netflix-core-1.4.0.RELEASE-sources.jar!/org/springframework/cloud/netflix/hystrix/EnableHystrix.java&#10;spring.fact&#9;FILE&#9;jar://C:/repo/io/zipkin/java/zipkin-autoconfigure-ui/2.3.1/zipkin-autoconfigure-ui-2.3.1.jar!/META-INF/spring.factories&#10;DiscoveryClient&#9;FILE&#9;jar://C:/repo/com/netflix/eureka/eureka-client/1.7.0/eureka-client-1.7.0.jar!/com/netflix/discovery/DiscoveryClient.class&#10;applicationContextIdFilter&#9;PSI&#9;JAVA://org.springframework.boot.actuate.autoconfigure.EndpointWebMvcAutoConfiguration.ApplicationContextFilterConfiguration#applicationContextIdFilter&#10;traceFilter&#9;PSI&#9;JAVA://org.springframework.cloud.sleuth.instrument.web.TraceFilter&#10;ModuleApplicationContainer&#9;FILE&#9;file://C:/Users/文舞/IdeaProjects/military/service-container/src/main/java/com/military/service/container/ModuleApplicationContainer.java&#10;WelcomePageHandlerMapping&#9;PSI&#9;JAVA://org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration.WelcomePageHandlerMapping&#10;BeanNameUrlHandlerMapping&#9;PSI&#9;JAVA://org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping&#10;s.w.s.m.m.a.RequestMappingHandlerMapping &#9;PSI&#9;JAVA://org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping&#10;s.w.s.m.m.a.RequestMappingHandlerMapping&#9;PSI&#9;JAVA://org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping&#10;EndpointHandlerMapping&#9;FILE&#9;jar://C:/repo/org/springframework/boot/spring-boot-actuator/1.5.9.RELEASE/spring-boot-actuator-1.5.9.RELEASE-sources.jar!/org/springframework/boot/actuate/endpoint/mvc/EndpointHandlerMapping.java&#10;setServletContext&#9;PSI&#9;JAVA://org.apache.catalina.core.ApplicationContext#setNewServletContextListenerAllowed&#10;RequestMappingHandlerMapping&#9;PSI&#9;JAVA://org.springframework.boot.autoconfigure.web.WebMvcRegistrations#getRequestMappingHandlerMapping&#10;module-sp&#9;FILE&#9;file://C:/Users/文舞/IdeaProjects/military/service-hi/src/main/resources/META-INF/module-spring.xml&#10;modul&#9;FILE&#9;file://C:/Users/文舞/IdeaProjects/military/service-hi/src/main/resources/META-INF/module-spring.xml&#10;moduleSpringConfiguration&#9;FILE&#9;file://C:/Users/文舞/IdeaProjects/military/service-container/src/main/java/com/military/service/container/module/impl/ModuleSpringConfiguration.java&#10;AnnotationConfigApplicationContext&#9;FILE&#9;jar://C:/repo/org/springframework/spring-context/4.3.13.RELEASE/spring-context-4.3.13.RELEASE-sources.jar!/org/springframework/context/annotation/AnnotationConfigApplicationContext.java&#10;createChildManagementContext&#9;PSI&#9;JAVA://org.springframework.boot.actuate.autoconfigure.EndpointWebMvcAutoConfiguration#createChildManagementContext&#10;MultipleJGitEnvironmentRepository&#9;PSI&#9;JAVA://org.springframework.cloud.config.server.environment.MultipleJGitEnvironmentRepository&#10;AnnotationConfigEmbeddedWebApplicationContext&#9;PSI&#9;JAVA://org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext&#10;format&#9;ACTION&#9;ReformatCode&#10;classpathconte&#9;PSI&#9;JAVA://org.springframework.context.support.ClassPathXmlApplicationContext&#10;eur*properties&#9;FILE&#9;jar://C:/repo/com/netflix/eureka/eureka-core/1.7.0/eureka-core-1.7.0-sources.jar!/META-INF/eureka-core.properties&#10;military&#9;FILE&#9;file://C:/Users/文舞/IdeaProjects/military/military.iml&#10;*properties&#9;PSI&#9;JAVA://com.military.service.container.ServiceInstance#properties&#10;*prop&#9;PSI&#9;JAVA://org.springframework.cloud.netflix.archaius.ArchaiusAutoConfiguration.PropagateEventsConfiguration&#10;classpath&#9;PSI&#9;JAVA://org.mockito.internal.configuration.ClassPathLoader&#10;urlreso&#9;PSI&#9;JAVA://org.springframework.core.io.UrlResource&#10;document&#9;ACTION&#9;QuickJavaDoc&#10;view&#9;ACTION&#9;CodeEditorViewGroup&#10;eureka-co&#9;FILE&#9;jar://C:/repo/com/netflix/eureka/eureka-core/1.7.0/eureka-core-1.7.0-sources.jar!/META-INF/eureka-core.properties&#10;SpringApplicationConfiguration&#9;FILE&#9;jar://C:/repo/org/springframework/boot/spring-boot-autoconfigure/1.5.9.RELEASE/spring-boot-autoconfigure-1.5.9.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/admin/SpringApplicationAdminJmxAutoConfiguration.java&#10;NativeEnvironmentRepository&#9;FILE&#9;jar://C:/repo/org/springframework/cloud/spring-cloud-config-server/1.4.0.RELEASE/spring-cloud-config-server-1.4.0.RELEASE.jar!/org/springframework/cloud/config/server/environment/NativeEnvironmentRepository.class&#10;ZuulServerApplication&#9;PSI&#9;JAVA://com.military.server.zuul.ZuulServerApplication&#10;ServiceMiyaApplication&#9;FILE&#9;file://C:/Users/文舞/IdeaProjects/military/service-miya/src/main/java/com/military/server/miya/ServiceMiyaApplication.java&#10;ArchaiusAutoConfiguration&#9;PSI&#9;JAVA://org.springframework.cloud.netflix.archaius.ArchaiusAutoConfiguration" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/oauth2-server/src/main/java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -1296,17 +1656,21 @@
     <key name="ExtractSuperBase.RECENT_KEYS">
       <recent name="com.military.service.container" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.military.service.container" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\文舞\IdeaProjects\military\oauth2-server\src\main\resources" />
+      <recent name="C:\Users\文舞\IdeaProjects\military\service-container\src\main\resources\META-INF" />
       <recent name="C:\Users\文舞\IdeaProjects\military\service-container\src\main\resources" />
+      <recent name="C:\Users\文舞\IdeaProjects\military" />
+      <recent name="C:\Users\文舞\IdeaProjects\military\service-starter\src\main\resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\文舞\IdeaProjects\military\oauth2-server\src\main\resources" />
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\文舞\IdeaProjects\military\service-container\src\main\resources" />
-      <recent name="C:\Users\文舞\IdeaProjects\military" />
-      <recent name="C:\Users\文舞\IdeaProjects\military\service-starter\src\main\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -1347,14 +1711,6 @@
       <option name="SHOW_IN_DASHBOARD" value="true" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <module name="oauth2-server" />
-      <envs />
-    </configuration>
-    <configuration name="BaseServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.military.base.service.MiltaryServiceApplication" />
-      <option name="SHOW_IN_DASHBOARD" value="true" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <module name="service-starter" />
       <envs />
     </configuration>
     <configuration name="ConfigClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
@@ -1566,21 +1922,20 @@
       <properties />
       <listeners />
     </configuration>
-    <list size="14">
-      <item index="0" class="java.lang.String" itemvalue="Spring Boot.BaseServiceApplication" />
-      <item index="1" class="java.lang.String" itemvalue="Spring Boot.ServiceRibbonApplication" />
-      <item index="2" class="java.lang.String" itemvalue="Spring Boot.ServiceFeignApplication" />
-      <item index="3" class="java.lang.String" itemvalue="Spring Boot.ConfigClientApplication" />
-      <item index="4" class="java.lang.String" itemvalue="Spring Boot.EurekaServerApplication(8761)" />
-      <item index="5" class="java.lang.String" itemvalue="Spring Boot.ConfigServerApplication(8888)" />
-      <item index="6" class="java.lang.String" itemvalue="Spring Boot.ZuulServerApplication(9769)" />
-      <item index="7" class="java.lang.String" itemvalue="Spring Boot.MiltaryServiceApplication-service-hi" />
+    <list size="13">
+      <item index="0" class="java.lang.String" itemvalue="Spring Boot.ServiceRibbonApplication" />
+      <item index="1" class="java.lang.String" itemvalue="Spring Boot.ServiceFeignApplication" />
+      <item index="2" class="java.lang.String" itemvalue="Spring Boot.ConfigClientApplication" />
+      <item index="3" class="java.lang.String" itemvalue="Spring Boot.EurekaServerApplication(8761)" />
+      <item index="4" class="java.lang.String" itemvalue="Spring Boot.ConfigServerApplication(8888)" />
+      <item index="5" class="java.lang.String" itemvalue="Spring Boot.ZuulServerApplication(9769)" />
+      <item index="6" class="java.lang.String" itemvalue="Spring Boot.MiltaryServiceApplication-service-hi" />
+      <item index="7" class="java.lang.String" itemvalue="Spring Boot.AuthserverApplication(8000)" />
       <item index="8" class="java.lang.String" itemvalue="Application.ServiceHiApplication" />
       <item index="9" class="java.lang.String" itemvalue="Application.ServiceLucyApplication" />
       <item index="10" class="java.lang.String" itemvalue="Application.ZuulServerApplication" />
       <item index="11" class="java.lang.String" itemvalue="Application.AuthserverApplication" />
       <item index="12" class="java.lang.String" itemvalue="Spring Boot.ServiceMiyaApplication" />
-      <item index="13" class="java.lang.String" itemvalue="Spring Boot.AuthserverApplication(8000)" />
     </list>
     <recent_temporary>
       <list size="5">
@@ -1614,6 +1969,9 @@
       <workItem from="1514463143086" duration="9285000" />
       <workItem from="1514552714488" duration="13346000" />
       <workItem from="1514790771328" duration="16220000" />
+      <workItem from="1514904705877" duration="1215000" />
+      <workItem from="1514982907105" duration="11097000" />
+      <workItem from="1515075017729" duration="5054000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1513872706962</created>
@@ -1626,7 +1984,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="84260000" />
+    <option name="totallyTimeSpent" value="101626000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -1641,11 +1999,10 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.43444446" sideWeight="0.510661" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5494382" sideWeight="0.22542734" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19764957" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13034189" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2889957" sideWeight="0.7562189" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="top" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
@@ -1657,22 +2014,23 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run Dashboard" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38202247" sideWeight="0.7750533" order="12" side_tool="false" content_ui="combo" />
-      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.070512824" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" x="163" y="288" width="1091" height="856" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.51797754" sideWeight="0.63432837" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run Dashboard" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6033708" sideWeight="0.9182692" order="12" side_tool="false" content_ui="combo" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3288889" sideWeight="0.4936034" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.51797754" sideWeight="0.63432837" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3280899" sideWeight="0.5959488" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.43370786" sideWeight="0.48933902" order="9" side_tool="false" content_ui="tabs" x="505" y="324" width="910" height="391" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5494382" sideWeight="0.7745727" order="9" side_tool="false" content_ui="tabs" x="505" y="324" width="910" height="391" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21741453" sideWeight="0.740668" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921347" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32264957" sideWeight="0.740668" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16577825" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921347" sideWeight="0.49573562" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26652452" sideWeight="0.25933203" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21901709" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.070512824" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" x="163" y="288" width="1091" height="856" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921347" sideWeight="0.49358973" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1689,10 +2047,34 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$MAVEN_REPOSITORY$/com/netflix/hystrix/hystrix-javanica/1.5.12/hystrix-javanica-1.5.12.jar!/com/netflix/hystrix/contrib/javanica/utils/MethodProvider.class</url>
-          <line>172</line>
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/4.2.3.RELEASE/spring-security-core-4.2.3.RELEASE.jar!/org/springframework/security/authentication/dao/DaoAuthenticationProvider.class</url>
+          <line>54</line>
           <properties />
-          <option name="timeStamp" value="85" />
+          <option name="timeStamp" value="96" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/4.2.3.RELEASE/spring-security-core-4.2.3.RELEASE.jar!/org/springframework/security/authentication/dao/DaoAuthenticationProvider.class</url>
+          <line>40</line>
+          <properties />
+          <option name="timeStamp" value="97" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/4.2.3.RELEASE/spring-security-core-4.2.3.RELEASE-sources.jar!/org/springframework/security/provisioning/InMemoryUserDetailsManager.java</url>
+          <line>65</line>
+          <properties />
+          <option name="timeStamp" value="100" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-config/4.2.3.RELEASE/spring-security-config-4.2.3.RELEASE.jar!/org/springframework/security/config/annotation/authentication/configurers/provisioning/UserDetailsManagerConfigurer.class</url>
+          <line>37</line>
+          <properties />
+          <option name="timeStamp" value="101" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/1.5.9.RELEASE/spring-boot-autoconfigure-1.5.9.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/security/AuthenticationManagerConfiguration.java</url>
+          <line>170</line>
+          <properties />
+          <option name="timeStamp" value="102" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
@@ -1703,7 +2085,7 @@
           </selected-grouping-rules>
         </breakpoints-dialog>
       </breakpoints-dialog>
-      <option name="time" value="86" />
+      <option name="time" value="103" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
@@ -1712,268 +2094,10 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.13.RELEASE/spring-webmvc-4.3.13.RELEASE-sources.jar!/org/springframework/web/servlet/mvc/multiaction/MultiActionController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="132" column="13" lean-forward="false" selection-start-line="132" selection-start-column="13" selection-end-line="132" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.13.RELEASE/spring-webmvc-4.3.13.RELEASE-sources.jar!/org/springframework/web/servlet/mvc/ParameterizableViewController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1536">
-          <caret line="37" column="13" lean-forward="false" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.13.RELEASE/spring-webmvc-4.3.13.RELEASE-sources.jar!/org/springframework/web/servlet/mvc/method/annotation/RequestMappingHandlerMapping.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="128" column="0" lean-forward="true" selection-start-line="128" selection-start-column="0" selection-end-line="128" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.13.RELEASE/spring-webmvc-4.3.13.RELEASE-sources.jar!/org/springframework/web/servlet/HandlerAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="337">
-          <caret line="85" column="9" lean-forward="false" selection-start-line="85" selection-start-column="9" selection-end-line="85" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/slf4j/jcl-over-slf4j/1.7.25/jcl-over-slf4j-1.7.25-sources.jar!/org/apache/commons/logging/impl/SLF4JLocationAwareLog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="59" column="0" lean-forward="false" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
-          <folding>
-            <element signature="e#2001#2002#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.13.RELEASE/spring-context-4.3.13.RELEASE-sources.jar!/org/springframework/context/annotation/Bean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="553">
-          <caret line="218" column="18" lean-forward="false" selection-start-line="218" selection-start-column="18" selection-end-line="218" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.13.RELEASE/spring-webmvc-4.3.13.RELEASE-sources.jar!/org/springframework/web/servlet/mvc/HttpRequestHandlerAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="52" column="5" lean-forward="true" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.13.RELEASE/spring-webmvc-4.3.13.RELEASE-sources.jar!/org/springframework/web/servlet/resource/ResourceHttpRequestHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="432" column="0" lean-forward="false" selection-start-line="432" selection-start-column="0" selection-end-line="432" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/1.5.9.RELEASE/spring-boot-autoconfigure-1.5.9.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/web/WebMvcAutoConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="378" column="9" lean-forward="true" selection-start-line="378" selection-start-column="9" selection-end-line="378" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service-container/src/main/java/com/military/service/container/IModuleApplicationContainer.java">
+    <entry file="file://$PROJECT_DIR$/service-container/src/main/java/com/military/service/container/ModuleApplicationAutoConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
-          <caret line="14" column="11" lean-forward="false" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service-container/src/main/java/com/military/service/container/module/IModuleInstance.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="13" column="11" lean-forward="false" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service-container/src/main/java/com/military/service/container/module/impl/ModuleInstance.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="156" column="31" lean-forward="false" selection-start-line="156" selection-start-column="18" selection-end-line="156" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.13.RELEASE/spring-web-4.3.13.RELEASE-sources.jar!/org/springframework/http/HttpHeaders.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="277" column="47" lean-forward="false" selection-start-line="277" selection-start-column="41" selection-end-line="277" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.13.RELEASE/spring-web-4.3.13.RELEASE-sources.jar!/org/springframework/web/cors/CorsUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="35" column="26" lean-forward="false" selection-start-line="35" selection-start-column="26" selection-end-line="35" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.13.RELEASE/spring-webmvc-4.3.13.RELEASE-sources.jar!/org/springframework/web/servlet/handler/AbstractUrlHandlerMapping.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="144" column="0" lean-forward="false" selection-start-line="144" selection-start-column="0" selection-end-line="144" selection-end-column="0" />
-          <folding>
-            <element signature="e#6597#6605#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.13.RELEASE/spring-webmvc-4.3.13.RELEASE-sources.jar!/org/springframework/web/servlet/handler/AbstractHandlerMapping.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="431">
-          <caret line="371" column="0" lean-forward="false" selection-start-line="371" selection-start-column="0" selection-end-line="371" selection-end-column="0" />
-          <folding>
-            <element signature="e#3648#3649#0" expanded="false" />
-            <element signature="e#3674#3675#0" expanded="false" />
-            <element signature="e#4171#4172#0" expanded="false" />
-            <element signature="e#4204#4205#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.13.RELEASE/spring-web-4.3.13.RELEASE-sources.jar!/org/springframework/web/context/request/ServletWebRequest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="104" column="0" lean-forward="false" selection-start-line="104" selection-start-column="0" selection-end-line="104" selection-end-column="0" />
-          <folding>
-            <element signature="e#3577#3578#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.13.RELEASE/spring-webmvc-4.3.13.RELEASE-sources.jar!/org/springframework/web/servlet/HandlerExecutionChain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="84" column="0" lean-forward="false" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
-          <folding>
-            <element signature="e#2684#2685#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.13.RELEASE/spring-webmvc-4.3.13.RELEASE-sources.jar!/org/springframework/web/servlet/mvc/method/AbstractHandlerMethodAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="84" column="0" lean-forward="false" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.13.RELEASE/spring-webmvc-4.3.13.RELEASE-sources.jar!/org/springframework/web/servlet/mvc/method/annotation/RequestMappingHandlerAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="737" column="0" lean-forward="false" selection-start-line="737" selection-start-column="0" selection-end-line="737" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.13.RELEASE/spring-webmvc-4.3.13.RELEASE-sources.jar!/org/springframework/web/servlet/DispatcherServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="987" column="9" lean-forward="false" selection-start-line="985" selection-start-column="29" selection-end-line="987" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service-feign/src/main/java/com/military/service/feign/HiController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service-feign/src/main/java/com/military/service/feign/SchedualServiceHi.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="11" column="17" lean-forward="false" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service-ribbon/src/main/java/com/military/server/ribbon/HelloControler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service-ribbon/src/main/java/com/military/server/ribbon/HelloService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service-ribbon/src/main/java/com/military/server/ribbon/ServiceRibbonApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service-lucy/src/main/java/com/military/server/lucy/ServiceLucyApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="42" column="45" lean-forward="false" selection-start-line="42" selection-start-column="38" selection-end-line="42" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/hystrix/hystrix-javanica/1.5.12/hystrix-javanica-1.5.12.jar!/com/netflix/hystrix/contrib/javanica/utils/MethodProvider.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="188" column="0" lean-forward="false" selection-start-line="188" selection-start-column="0" selection-end-line="188" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/hystrix/hystrix-javanica/1.5.12/hystrix-javanica-1.5.12.jar!/com/netflix/hystrix/contrib/javanica/annotation/HystrixCommand.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="25" column="18" lean-forward="false" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
-          <folding>
-            <element signature="e#0#1058#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service-container/src/main/java/com/military/service/container/ModuleApplicationContainer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="152" column="45" lean-forward="false" selection-start-line="152" selection-start-column="45" selection-end-line="152" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/hystrix/hystrix-javanica/1.5.12/hystrix-javanica-1.5.12-sources.jar!/com/netflix/hystrix/contrib/javanica/annotation/HystrixCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="32" column="20" lean-forward="false" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
-          <folding />
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1985,146 +2109,371 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.13.RELEASE/spring-context-4.3.13.RELEASE-sources.jar!/org/springframework/context/annotation/AnnotationConfigApplicationContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="159" column="26" lean-forward="false" selection-start-line="159" selection-start-column="26" selection-end-line="159" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/service-hi/src/main/java/com/military/server/hi/Rest1Controller.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="34" column="26" lean-forward="false" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="26" />
+        <state relative-caret-position="335">
+          <caret line="57" column="25" lean-forward="false" selection-start-line="57" selection-start-column="18" selection-end-line="57" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/hystrix/hystrix-javanica/1.5.12/hystrix-javanica-1.5.12-sources.jar!/com/netflix/hystrix/contrib/javanica/utils/MethodProvider.java">
+    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-freemarker/1.5.9.RELEASE/spring-boot-starter-freemarker-1.5.9.RELEASE.pom">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-291">
-          <caret line="176" column="0" lean-forward="false" selection-start-line="176" selection-start-column="0" selection-end-line="176" selection-end-column="0" />
+        <state relative-caret-position="205">
+          <caret line="30" column="27" lean-forward="false" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/4.2.3.RELEASE/spring-security-web-4.2.3.RELEASE.jar!/org/springframework/security/web/csrf/CsrfLogoutHandler.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="13" column="19" lean-forward="false" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oauth2-server/src/main/resources/templates/login.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-156">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/service-miya/src/main/java/com/military/server/miya/ServiceMiyaApplication.java">
+    <entry file="file://$PROJECT_DIR$/oauth2-server/src/main/resources/static/.eslintignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oauth2-server/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="27" lean-forward="false" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oauth2-server/src/main/resources/static/build/webpack.prod.conf.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="47" column="14" lean-forward="false" selection-start-line="47" selection-start-column="6" selection-end-line="47" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oauth2-server/src/main/resources/static/config/prod.env.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oauth2-server/src/main/resources/static/aa.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="4" lean-forward="true" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oauth2-server/src/main/resources/static/config/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="47" column="43" lean-forward="false" selection-start-line="47" selection-start-column="39" selection-end-line="47" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oauth2-server/src/main/resources/static/dist/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.13.RELEASE/spring-webmvc-4.3.13.RELEASE-sources.jar!/org/springframework/web/servlet/config/annotation/ViewControllerRegistration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="35" column="40" lean-forward="false" selection-start-line="35" selection-start-column="40" selection-end-line="35" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.13.RELEASE/spring-webmvc-4.3.13.RELEASE-sources.jar!/org/springframework/web/servlet/mvc/ParameterizableViewController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1459">
+          <caret line="37" column="13" lean-forward="false" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/4.2.3.RELEASE/spring-security-core-4.2.3.RELEASE.jar!/org/springframework/security/provisioning/InMemoryUserDetailsManager.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="105" column="0" lean-forward="false" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/4.2.3.RELEASE/spring-security-core-4.2.3.RELEASE.jar!/org/springframework/security/core/userdetails/User.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="57" column="0" lean-forward="false" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oauth2-server/src/main/resources/templates/authorize.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="27" column="7" lean-forward="false" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oauth2-server/src/main/resources/static/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="13" lean-forward="false" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/4.2.3.RELEASE/spring-security-core-4.2.3.RELEASE.jar!/org/springframework/security/authentication/dao/AbstractUserDetailsAuthenticationProvider.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="77" column="0" lean-forward="false" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/4.2.3.RELEASE/spring-security-core-4.2.3.RELEASE.jar!/org/springframework/security/authentication/encoding/PlaintextPasswordEncoder.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/4.2.3.RELEASE/spring-security-core-4.2.3.RELEASE-sources.jar!/org/springframework/security/authentication/encoding/PlaintextPasswordEncoder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/4.2.3.RELEASE/spring-security-core-4.2.3.RELEASE-sources.jar!/org/springframework/security/core/userdetails/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/4.2.3.RELEASE/spring-security-web-4.2.3.RELEASE.jar!/org/springframework/security/web/csrf/CookieCsrfTokenRepository.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="18" column="24" lean-forward="false" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/4.2.3.RELEASE/spring-security-core-4.2.3.RELEASE-sources.jar!/org/springframework/security/authentication/dao/DaoAuthenticationProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="37" column="13" lean-forward="false" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/4.2.3.RELEASE/spring-security-core-4.2.3.RELEASE-sources.jar!/org/springframework/security/authentication/dao/AbstractUserDetailsAuthenticationProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4428">
+          <caret line="78" column="22" lean-forward="false" selection-start-line="78" selection-start-column="22" selection-end-line="78" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/4.2.3.RELEASE/spring-security-core-4.2.3.RELEASE.jar!/org/springframework/security/authentication/dao/DaoAuthenticationProvider.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="23" column="23" lean-forward="true" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
+          <folding>
+            <element signature="e#5768#5769#0" expanded="true" />
+            <element signature="e#5814#5815#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/4.2.3.RELEASE/spring-security-core-4.2.3.RELEASE-sources.jar!/org/springframework/security/core/userdetails/UserDetailsService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
-          <caret line="36" column="25" lean-forward="false" selection-start-line="36" selection-start-column="25" selection-end-line="36" selection-end-column="25" />
+          <caret line="34" column="35" lean-forward="false" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="35" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/service-container/src/main/resources/module-base-spring.xml">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-config/4.2.3.RELEASE/spring-security-config-4.2.3.RELEASE.jar!/org/springframework/security/config/annotation/web/configuration/WebSecurityConfigurerAdapter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4047">
+          <caret line="267" column="23" lean-forward="false" selection-start-line="267" selection-start-column="23" selection-end-line="267" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/4.2.3.RELEASE/spring-security-core-4.2.3.RELEASE-sources.jar!/org/springframework/security/provisioning/JdbcUserDetailsManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="60" column="13" lean-forward="false" selection-start-line="60" selection-start-column="13" selection-end-line="60" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/4.2.3.RELEASE/spring-security-core-4.2.3.RELEASE-sources.jar!/org/springframework/security/provisioning/UserDetailsManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="27" column="26" lean-forward="false" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/4.2.3.RELEASE/spring-security-core-4.2.3.RELEASE-sources.jar!/org/springframework/security/core/userdetails/memory/UserAttribute.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="26" column="60" lean-forward="false" selection-start-line="26" selection-start-column="60" selection-end-line="26" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-config/4.2.3.RELEASE/spring-security-config-4.2.3.RELEASE.jar!/org/springframework/security/config/annotation/authentication/configurers/userdetails/UserDetailsServiceConfigurer.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/1.5.9.RELEASE/spring-boot-autoconfigure-1.5.9.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/security/SecurityProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="334">
+          <caret line="47" column="7" lean-forward="false" selection-start-line="47" selection-start-column="7" selection-end-line="47" selection-end-column="7" />
+          <folding>
+            <element signature="e#3165#3173#0" expanded="false" />
+            <element signature="e#8105#8113#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-dependencies/Edgware.RELEASE/spring-cloud-dependencies-Edgware.RELEASE.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="101" column="57" lean-forward="false" selection-start-line="101" selection-start-column="57" selection-end-line="101" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/1.5.9.RELEASE/spring-boot-autoconfigure-1.5.9.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/security/oauth2/client/EnableOAuth2Sso.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="385">
+          <caret line="44" column="13" lean-forward="false" selection-start-line="44" selection-start-column="13" selection-end-line="44" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#2210#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/oauth/spring-security-oauth2/2.0.14.RELEASE/spring-security-oauth2-2.0.14.RELEASE.jar!/org/springframework/security/oauth2/config/annotation/web/configuration/EnableOAuth2Client.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="18" column="18" lean-forward="false" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/oauth/spring-security-oauth2/2.0.14.RELEASE/spring-security-oauth2-2.0.14.RELEASE-sources.jar!/org/springframework/security/oauth2/config/annotation/web/configuration/EnableOAuth2Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="62">
+          <caret line="38" column="14" lean-forward="false" selection-start-line="38" selection-start-column="14" selection-end-line="38" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-config/4.2.3.RELEASE/spring-security-config-4.2.3.RELEASE.jar!/org/springframework/security/config/annotation/authentication/configurers/provisioning/UserDetailsManagerConfigurer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/4.2.3.RELEASE/spring-security-core-4.2.3.RELEASE-sources.jar!/org/springframework/security/provisioning/InMemoryUserDetailsManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2">
+          <caret line="69" column="12" lean-forward="false" selection-start-line="69" selection-start-column="12" selection-end-line="69" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/1.5.9.RELEASE/spring-boot-autoconfigure-1.5.9.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/security/AuthenticationManagerConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="177" column="37" lean-forward="false" selection-start-line="177" selection-start-column="37" selection-end-line="177" selection-end-column="37" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/zuul-server/src/main/java/com/military/server/zuul/ZuulServerApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding />
+        <state relative-caret-position="156">
+          <caret line="16" column="20" lean-forward="false" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+          <folding>
+            <element signature="e#533#534#0" expanded="true" />
+            <element signature="e#605#606#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/zuul-server/src/main/java/com/military/server/zuul/MyFilter.java">
+    <entry file="file://$PROJECT_DIR$/SpringcloudConfig/zuul-server.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="13" column="33" lean-forward="false" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
+        <state relative-caret-position="19">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="7" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-server/eureka-server.iml">
+    <entry file="file://$PROJECT_DIR$/zuul-server/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="261">
+          <caret line="31" column="31" lean-forward="false" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-jwt/1.0.8.RELEASE/spring-security-jwt-1.0.8.RELEASE.pom">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/oauth/spring-security-oauth2/2.0.14.RELEASE/spring-security-oauth2-2.0.14.RELEASE-sources.jar!/org/springframework/security/oauth2/config/annotation/builders/ClientDetailsServiceBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-627">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="99">
+          <caret line="166" column="29" lean-forward="false" selection-start-line="166" selection-start-column="29" selection-end-line="166" selection-end-column="29" />
+          <folding>
+            <element signature="e#3181#3189#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/service-starter/pom.xml">
+    <entry file="file://$PROJECT_DIR$/service-lucy/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="55" column="0" lean-forward="false" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+        <state relative-caret-position="190">
+          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-client/src/main/resources/application.yml">
+    <entry file="file://$PROJECT_DIR$/zuul-server/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
-          <caret line="6" column="7" lean-forward="false" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oauth2-server/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="337">
-          <caret line="28" column="17" lean-forward="false" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-client/eureka-client.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-client/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="18" selection-end-column="21" />
+          <caret line="6" column="24" lean-forward="false" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="38" column="21" lean-forward="false" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service-starter/src/main/java/com/military/base/service/MiltaryServiceApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="39" column="18" lean-forward="false" selection-start-line="39" selection-start-column="18" selection-end-line="39" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service-starter/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state relative-caret-position="-342">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-server/src/main/java/com/military/eureka/server/EurekaServerApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oauth2-server/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="12" lean-forward="false" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="12" />
           <folding />
         </state>
       </provider>
@@ -2132,12 +2481,18 @@
     <entry file="file://$PROJECT_DIR$/oauth2-server/src/main/java/com/military/oauth2/server/AuthserverApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
-          <caret line="42" column="56" lean-forward="false" selection-start-line="42" selection-start-column="45" selection-end-line="42" selection-end-column="56" />
+          <caret line="71" column="5" lean-forward="false" selection-start-line="71" selection-start-column="5" selection-end-line="71" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2215#2216#0" expanded="true" />
-            <element signature="e#2287#2288#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oauth2-server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="419">
+          <caret line="28" column="17" lean-forward="false" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2193,12 +2548,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>service-starter</last-edited>
+          <last-edited>Spring|service-container</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

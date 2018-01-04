@@ -231,6 +231,5 @@ public class ModuleApplicationContext extends AbstractXmlApplicationContext impl
         WebApplicationContext p = (WebApplicationContext) this.getParent();
 
         return p.getServletContext();
-//        return this.getParent().getServlet;
     }
 }

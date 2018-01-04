@@ -1,6 +1,7 @@
 package  com.military.service.container;
 
 import com.military.service.container.module.impl.ModuleInstance;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationContext;
 
 import javax.servlet.http.HttpServletRequest;
@@ -11,19 +12,18 @@ import java.net.MalformedURLException;
 import java.net.URL;
 import java.net.URLClassLoader;
 import java.util.*;
-
 public class ModuleApplicationContainer implements IModuleApplicationContainer {
     public static final String MODULE_PROPERTIES = "META-INF/module.properties";
     public static final String MILITARY_CONTAINER_PATH = "military.container.path";
     public static final String MILITARY_CONTAINER_DIR = "military.container.dir";
     public static final String MODULE_SPRING_XML = "module-base-spring.xml";
     public static final String MILITARY_CONTAINER_BASE_PACKAGE = "military.container.base-package";
-    private final ApplicationContext context;
+    @Autowired
+    private ApplicationContext context;
 
     private Map <String ,ModuleInstance> services= new HashMap<String ,ModuleInstance>();
 
-    public ModuleApplicationContainer(ApplicationContext ctx) {
-        this.context = ctx;
+    public ModuleApplicationContainer() {
     }
 
     public ApplicationContext getContext() {

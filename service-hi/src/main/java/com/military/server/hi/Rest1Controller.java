@@ -44,7 +44,15 @@ public class Rest1Controller {
     @RequestMapping("/hi")
     @HystrixCommand(fallbackMethod = "hiError")
     public String home(@RequestParam String name) {
+
+        System.out.printf("name");
+        go(1);
         return "hi "+name+",i am from port:" +port;
+    }
+
+    private void go(int i) {
+        LOG.info("calling trace service-hi "+i);
+        System.out.printf("i"+i);
     }
 
     public String hiError(String name) {

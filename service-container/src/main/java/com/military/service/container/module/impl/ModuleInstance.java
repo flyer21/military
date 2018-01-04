@@ -20,7 +20,6 @@ import static com.military.service.container.ModuleApplicationContainer.MODULE_S
 
 public class ModuleInstance implements IModuleInstance {
 
-    //    Properties   properties;
 
     private String name;
     private String version;
@@ -65,7 +64,6 @@ public class ModuleInstance implements IModuleInstance {
         this.context.setParent(container.getContext());
         this.context.getEnvironment().getSystemProperties().put(MILITARY_CONTAINER_BASE_PACKAGE, this.basePackage);
 
-//        this.context.re
         if (this.configFile!=null) {
             this.context.setConfigLocations(MODULE_SPRING_XML, this.configFile);
         }
@@ -74,58 +72,14 @@ public class ModuleInstance implements IModuleInstance {
         }
 
 
-//        this.context.setNamespace("Module");
         this.context.setId(this.getName() +":Module");
         this.context.setClassLoader(this.classLoader);
-//        this.context.scan("com");
-//        context.register(EndpointWebMvcChildContextConfiguration.class,
-//                EmbeddedServletContainerAutoConfiguration.class,
-//                DispatcherServletAutoConfiguration.class);
-
-//        registerEmbeddedServletContainerFactory(context);
         MuduleContextListener.addIfPossible(container.getContext(),
                 context);
 
         this.context.refresh();
-        String[] beanNames = context.getBeanDefinitionNames();
-        Arrays.sort(beanNames);
-        for (String beanName : beanNames) {
-            System.out.println(beanName);
-        }
+        logger.info("success start {}", this.getName());
     }
-//    private Class<?> determineEmbeddedServletContainerFactoryClass()
-//            throws NoSuchBeanDefinitionException {
-//        Class<?> servletContainerFactoryClass = container.getContext()
-//                .getBean(EmbeddedServletContainerFactory.class).getClass();
-//        if (cannotBeInstantiated(servletContainerFactoryClass)) {
-//            throw new FatalBeanException("EmbeddedServletContainerFactory implementation "
-//                    + servletContainerFactoryClass.getName() + " cannot be instantiated. "
-//                    + "To allow a separate management port to be used, a top-level class "
-//                    + "or static inner class should be used instead");
-//        }
-//        return servletContainerFactoryClass;
-//    }
-//    private boolean cannotBeInstantiated(Class<?> clazz) {
-//        return clazz.isLocalClass()
-//                || (clazz.isMemberClass() && !Modifier.isStatic(clazz.getModifiers()))
-//                || clazz.isAnonymousClass();
-//    }
-
-//    private void registerEmbeddedServletContainerFactory(
-//            AnnotationConfigEmbeddedWebApplicationContext childContext) {
-//        try {
-//            ConfigurableListableBeanFactory beanFactory = childContext.getBeanFactory();
-//            if (beanFactory instanceof BeanDefinitionRegistry) {
-//                BeanDefinitionRegistry registry = (BeanDefinitionRegistry) beanFactory;
-//                registry.registerBeanDefinition("embeddedServletContainerFactory",
-//                        new RootBeanDefinition(
-//                                determineEmbeddedServletContainerFactoryClass()));
-//            }
-//        }
-//        catch (NoSuchBeanDefinitionException ex) {
-//            // Ignore and assume auto-configuration
-//        }
-//    }
     public void stop() {
         this.context.stop();
 
@@ -143,11 +97,6 @@ public class ModuleInstance implements IModuleInstance {
     }
 
 
-//    public void setBaseURL(URL baseURL) {
-//        URL[] urls = new URL[]{baseURL};
-//        this.classLoader = new URLClassLoader(urls,container.getContext().getClassLoader());
-//    }
-
     @Override
     public AbstractApplicationContext getContext() {
         return context;
@@ -160,10 +109,7 @@ public class ModuleInstance implements IModuleInstance {
             HandlerExecutionChain handler = mp.getHandler(request);
             if (handler!=null){
                 return handler;
-
             }
-
-
         }
         return null;
     }

@@ -1,4 +1,14 @@
 server:
   port: 9769
+security:
+  oauth2:
+    client:
+      access-token-uri: http://localhost:8000/uaa/oauth/token
+      user-authorization-uri: http://localhost:8000/uaa/oauth/authorize
+      client-id: acme
 
+
+    resource:
+      user-info-uri: http://localhost:8000/uaa/user
+      prefer-token-info: false
 foo: foo version 3222222222
