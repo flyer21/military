@@ -1,0 +1,103 @@
+buildscript {
+	repositories {
+		mavenCentral()
+		mavenLocal()
+		maven { url "http://repo.spring.io/snapshot" }
+		maven { url "http://repo.spring.io/milestone" }
+		maven { url "http://repo.spring.io/release" }
+	}
+	dependencies {
+		classpath "org.springframework.boot:spring-boot-gradle-plugin:1.5.9.RELEASE"
+		// remove::start[]
+		classpath "org.springframework.cloud:spring-cloud-contract-gradle-plugin:${findProperty('verifierVersion') ?: verifierVersion}"
+		// remove::end[]
+	}
+}
+
+group = 'com.example'
+version = '0.0.1-SNAPSHOT'
+
+repositories {
+	mavenCentral()
+	mavenLocal()
+	maven { url "http://repo.spring.io/snapshot" }
+	maven { url "http://repo.spring.io/milestone" }
+	maven { url "http://repo.spring.io/release" }
+}
+
+apply plugin: 'groovy'
+apply plugin: 'org.springframework.boot'
+// remove::start[]
+apply plugin: 'spring-cloud-contract'
+// remove::end[]
+apply plugin: 'maven-publish'
+
+dependencyManagement {
+	imports {
+		mavenBom "org.springframework.cloud:spring-cloud-dependencies:$BOM_VERSION"
+	}
+}
+
+dependencies {
+	compile("org.springframework.boot:spring-boot-starter-web")
+	compile("org.springframework.boot:spring-boot-starter-actuator")
+	compile("org.springframework.cloud:spring-cloud-starter-stream-rabbit")
+
+	testCompile("org.springframework.cloud:spring-cloud-stream-test-support")
+	// remove::start[]
+	testCompile("org.springframework.restdocs:spring-restdocs-mockmvc")
+	testCompile("org.springframework.cloud:spring-cloud-starter-contract-verifier")
+	testCompile("org.springframework.cloud:spring-cloud-contract-wiremock")
+	// remove::end[]
+}
+
+contracts {
+	packageWithBaseClasses = 'com.example'
+}
+
+test {
+	testLogging {
+		exceptionFormat = 'full'
+	}
+}
+
+task wrapper(type: Wrapper) {
+	gradleVersion = '3.5'
+}
+
+// remove::start[]
+// tag::stubsjar[]
+// we want to override the default Spring Cloud Contract behaviour and generate JAR in a custom way
+task stubsJar(type: Jar) {
+	classifier = "stubs"
+	into('/') {
+		include('**/com/example/model/*.*')
+		from("${project.rootDir}/src/main/java/")
+	}
+	into('/') {
+		include('**/com/example/model/*.*')
+		from("${project.buildDir}/classes/main")
+	}
+	into("META-INF/${project.group}/${project.name}/${project.version}/mappings") {
+		include('**/*.*')
+		from("${project.rootDir}/target/snippets/stubs")
+	}
+	into("META-INF/${project.group}/${project.name}/${project.version}/contracts") {
+		include('**/*.groovy')
+		from("${project.rootDir}/src/test/resources/contracts")
+	}
+}
+// we need the tests to pass to build the stub jar
+stubsJar.dependsOn(test)
+// we want to disable the default Spring Cloud Contract stub jar generation
+verifierStubsJar.enabled = false
+
+artifacts {
+	archives stubsJar
+}
+// end::stubsjar[]
+// remove::end[]
+
+clean.doFirst {
+	delete 'target/'
+}

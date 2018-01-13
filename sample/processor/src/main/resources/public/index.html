@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en" data-debug data-rave-meta="bower.json">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Reactive Geocoding Demo</title>
+
+  <!-- Google Maps -->
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD9LhM4hqN-dmUN5hQQAyUIRzu0ATUrBOc"></script>
+
+  <!-- Processor App -->
+  <link href="css/normalize.css" rel="stylesheet">
+  <link href="css/foundation.min.css" rel="stylesheet">
+  <link href="css/processor.css" rel="stylesheet">
+</head>
+<body>
+
+<nav class="top-bar" data-topbar role="navigation">
+  <ul class="title-area">
+    <li class="name">
+      <h1><a href="/">geocoder.cfapps.io</a></h1>
+    </li>
+    <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+    <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+  </ul>
+
+  <section class="top-bar-section">
+    <!-- Right Nav Section -->
+    <ul class="right">
+      <li data-bind="css: { active: active() === 'form' }">
+        <a href="#" data-bind="click: formActive">form</a>
+      </li>
+      <li data-bind="css: { active: active() === 'nearby' }">
+        <a href="#" data-bind="click: nearbyActive">nearby</a>
+      </li>
+    </ul>
+  </section>
+</nav>
+
+<header class="row">
+  <h1>Reactive Geocoding Demo</h1>
+</header>
+
+<div class="row">
+  <div class="columns large-11">
+    <div id="map-canvas"></div>
+  </div>
+
+  <div class="columns large-1">
+    <div class="range-slider vertical-range radius"
+         data-slider="20"
+         data-options="vertical: true; step: 10; start: 20; end: 200;">
+      <span class="range-slider-handle" role="slider" tabindex="0"></span>
+      <span class="range-slider-active-segment"></span>
+    </div>
+  </div>
+</div>
+
+<div class="row" data-bind="visible: active() === 'form'">
+  <form name="baseLocation" action="#">
+    <div class="input-group-lg">
+      <label for="name">Name:</label>
+      <input id="name"
+             type="text"
+             class="form-control"
+             placeholder="Name, Company"
+             data-bind="textInput: name"/>
+
+      <label for="address">Address:</label>
+      <input id="address"
+             type="text"
+             class="form-control"
+             placeholder="Address"
+             data-bind="textInput: address"/>
+
+      <label for="city">City:</label>
+      <input id="city"
+             type="text"
+             class="form-control"
+             placeholder="City"
+             data-bind="textInput: city"/>
+
+      <label for="state">State/Country:</label>
+      <input id="state"
+             type="text"
+             class="form-control"
+             placeholder="State/Country"
+             data-bind="textInput: state"/>
+
+      <label for="zipcode">Postal Code:</label>
+      <input id="zipcode"
+             type="text"
+             class="form-control"
+             placeholder="Zipcode"
+             data-bind="textInput: zip"/>
+    </div>
+  </form>
+
+  <div class="right">
+    <button type="button" data-bind="click: geocode">Save &raquo;</button>
+  </div>
+</div>
+
+
+<div class="row" data-bind="visible: active() === 'nearby'">
+  <h3>Nearby (within <span data-bind="text: distance">20</span>km)</h3>
+
+  <table class="table table-striped">
+    <thead>
+    <tr>
+      <th>Name, Company</th>
+      <th>Address</th>
+      <th>City</th>
+      <th>State/Country</th>
+    </tr>
+    </thead>
+    <tbody data-bind="foreach: nearby">
+    <tr>
+      <td><span data-bind="text: name"> </span></td>
+      <td><span data-bind="text: address"> </span></td>
+      <td><span data-bind="text: city"> </span></td>
+      <td><span data-bind="text: province"> </span></td>
+    </tr>
+    </tbody>
+  </table>
+</div>
+
+<script src="bower_components/foundation/js/vendor/jquery.js"></script>
+<script src="bower_components/foundation/js/vendor/modernizr.js"></script>
+<script src="bower_components/foundation/js/foundation.min.js"></script>
+<script src="bower_components/rave/rave.js"></script>
+</body>
+</html>

@@ -1,0 +1,12 @@
+#map-canvas {
+  height: 250px;
+  margin-bottom: 25px;
+}
+
+input {
+    margin-bottom: 25px;
+}
+
+.set-marker-cell {
+    width: 2em;
+}

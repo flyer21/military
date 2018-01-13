@@ -1,12 +1,18 @@
-server.contextPath: /uaa
-security.user.password: password
-security.ignored: /dist/**,/css/**,/js/**,/favicon.ico,/webjars/**
-logging.level.org.springframework.security: DEBUG
 spring:
   application:
     name: oauth-server
 server:
   port: 8000
+  contextPath: /uaa
+
+security:
+  user:
+    password: password
+  ignored: /dist/**,/css/**,/js/**,/favicon.ico,/w111ebjars/**
+logging:
+  level:
+    org.springframework.security: DEBUG
+
 eureka:
   client:
     serviceUrl:
