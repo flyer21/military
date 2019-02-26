@@ -4,81 +4,29 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.civil</groupId>
-    <artifactId>military</artifactId>
+    <groupId>com.military</groupId>
+    <artifactId>cloud</artifactId>
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
-
-        <properties>
-            <maven.compiler.source>1.8</maven.compiler.source>
-            <maven.compiler.target>1.8</maven.compiler.target>
-            <maven.compiler.compilerVersion>1.8</maven.compiler.compilerVersion>
-        </properties>
-
-    <parent>
-        <groupId>org.springframework.boot</groupId>
-        <artifactId>spring-boot-starter-parent</artifactId>
-        <version>1.5.9.RELEASE</version>
-    </parent>
-    <dependencies>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-actuator</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-eureka</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-zipkin</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework</groupId>
-            <artifactId>spring-test</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-            <scope>test</scope>
-        </dependency>
-
-    </dependencies>
-    <dependencyManagement>
-        <dependencies>
-            <dependency>
-                <groupId>org.springframework.cloud</groupId>
-                <artifactId>spring-cloud-dependencies</artifactId>
-                <version>Edgware.RELEASE</version>
-                <type>pom</type>
-                <scope>import</scope>
-            </dependency>
-        </dependencies>
-    </dependencyManagement>
-
     <modules>
         <module>eureka-server</module>
-        <module>eureka-client</module>
+        <!--<module>eureka-client</module>-->
         <module>config-server</module>
-        <module>service-ribbon</module>
-        <module>service-feign</module>
-        <module>config-client</module>
-        <module>server-zipkin</module>
-        <module>service-hi</module>
+        <!--<module>service-ribbon</module>-->
+        <!--<module>service-feign</module>-->
+        <!--<module>config-client</module>-->
+        <!--<module>server-zipkin</module>-->
+        <!--<module>service-hi</module>-->
 
 
-        <module>service-miya</module>
-        <module>service-lucy</module>
+        <!--<module>service-miya</module>-->
+        <!--<module>service-lucy</module>-->
         <module>zuul-server</module>
-        <module>service-starter-parent</module>
-        <module>service-starter</module>
-        <module>service-container</module>
+        <module>starter-parent</module>
+        <!--<module>service-starter</module>-->
+        <!--<module>service-container</module>-->
         <module>oauth2-server</module>
-        <module>github-client</module>
+        <!--<module>github-client</module>-->
     </modules>
 
 
