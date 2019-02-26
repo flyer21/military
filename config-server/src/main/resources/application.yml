@@ -8,7 +8,7 @@ spring:
       label: master
       server:
         git:
-          uri: file:///C:/Users/文舞/IdeaProjects/military
+          uri: file:///C:/works/config-rep
           searchPaths: SpringcloudConfig
 #          username: flyer21@163.com
 #          password: frf12345
