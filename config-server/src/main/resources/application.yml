@@ -8,8 +8,8 @@ spring:
       label: master
       server:
         git:
-          uri: file:///C:/works/config-rep
-          searchPaths: SpringcloudConfig
+          uri: https://github.com/flyer21/military-config-rep.git
+#          searchPaths: SpringcloudConfig
 #          username: flyer21@163.com
 #          password: frf12345
 eureka:
@@ -18,5 +18,5 @@ eureka:
   client:
     serviceUrl:
       defaultZone: http://localhost:8761/eureka/
-  profiles:
-    active: dev
+#  profiles:
+#    active: dev
