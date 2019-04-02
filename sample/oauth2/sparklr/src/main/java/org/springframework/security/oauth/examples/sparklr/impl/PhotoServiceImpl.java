@@ -1,17 +1,17 @@
 package org.springframework.security.oauth.examples.sparklr.impl;
 
+import org.springframework.security.core.Authentication;
+import org.springframework.security.core.context.SecurityContextHolder;
+import org.springframework.security.core.userdetails.UserDetails;
+import org.springframework.security.oauth.examples.sparklr.PhotoInfo;
+import org.springframework.security.oauth.examples.sparklr.PhotoService;
+
 import java.io.IOException;
 import java.io.InputStream;
 import java.net.URL;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
-
-import org.springframework.security.core.Authentication;
-import org.springframework.security.core.context.SecurityContextHolder;
-import org.springframework.security.core.userdetails.UserDetails;
-import org.springframework.security.oauth.examples.sparklr.PhotoInfo;
-import org.springframework.security.oauth.examples.sparklr.PhotoService;
 
 /**
  * Basic implementation for the photo service.

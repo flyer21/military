@@ -1,11 +1,11 @@
 package org.springframework.security.oauth.examples.sparklr.mvc;
 
-import java.security.Principal;
-
 import org.springframework.security.oauth.examples.sparklr.PhotoServiceUser;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
+
+import java.security.Principal;
 
 /**
  * @author Michael Lavelle

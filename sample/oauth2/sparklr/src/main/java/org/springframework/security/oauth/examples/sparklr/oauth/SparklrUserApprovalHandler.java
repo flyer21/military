@@ -16,14 +16,14 @@
 
 package org.springframework.security.oauth.examples.sparklr.oauth;
 
-import java.util.Collection;
-
 import org.springframework.security.core.Authentication;
 import org.springframework.security.oauth2.provider.AuthorizationRequest;
 import org.springframework.security.oauth2.provider.ClientDetails;
 import org.springframework.security.oauth2.provider.ClientDetailsService;
 import org.springframework.security.oauth2.provider.ClientRegistrationException;
 import org.springframework.security.oauth2.provider.approval.ApprovalStoreUserApprovalHandler;
+
+import java.util.Collection;
 
 /**
  * @author Dave Syer

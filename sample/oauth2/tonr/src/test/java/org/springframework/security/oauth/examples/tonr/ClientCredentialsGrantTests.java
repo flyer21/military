@@ -1,10 +1,6 @@
 package org.springframework.security.oauth.examples.tonr;
 
 
-import static org.junit.Assert.assertEquals;
-
-import java.util.Arrays;
-
 import org.junit.Rule;
 import org.junit.Test;
 import org.springframework.security.oauth2.client.DefaultOAuth2ClientContext;
@@ -14,6 +10,10 @@ import org.springframework.security.oauth2.client.token.grant.client.ClientCrede
 import org.springframework.security.oauth2.client.token.grant.client.ClientCredentialsResourceDetails;
 import org.springframework.security.oauth2.common.OAuth2AccessToken;
 import org.springframework.web.client.RestTemplate;
+
+import java.util.Arrays;
+
+import static org.junit.Assert.assertEquals;
 
 /**
  * @author Ryan Heaton
