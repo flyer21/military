@@ -1,8 +1,2 @@
-/config-client/target
-/config-server/target
-/eureka-client/target
-/eureka-server/target
-/service-feign/target
-/service-ribbon/target
 target
 /.idea

@@ -9,8 +9,10 @@ spring:
       discovery:
         enabled: true
         serviceId: config-server
+  profiles:
+    active: dev
 server:
-  port: 9769
+  port: 80
 security:
   oauth2:
     client:

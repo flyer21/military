@@ -1,19 +1,44 @@
 spring:
   application:
-    name: oauth-server
+    name: oauth2-server
+  cloud:
+    config:
+      label: master
+      profile: dev
+      uri:  http://localhost:8888/
+      discovery:
+        enabled: true
+        serviceId: oauth2-server
+  profiles:
+    active: dev
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/oauth2?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC
+    username: oauth2
+    password: oauth2
+    driver-class-name: com.mysql.cj.jdbc.Driver
 server:
   port: 8000
-  contextPath: /uaa
-
-security:
-  user:
-    password: password
-  ignored: /dist/**,/css/**,/js/**,/favicon.ico,/w111ebjars/**
+  servlet:
+    context-path: /uaa
+#security:
+#  user:
+#    password: password
+#
+#  ignored: /dist/**,/css/**,/js/**,/favicon.ico,/w111ebjars/**
 logging:
   level:
     org.springframework.security: DEBUG
+#  spring.datasource.url=jdbc:mysql://127.0.0.1:3306/test
+#  spring.datasource.username=root
+#  spring.datasource.password=123456
+#  spring.datasource.driver-class-name=com.mysql.jdbc.Driver
+#  spring.datasource.max-idle=10
+#  spring.datasource.max-wait=10000
+#  spring.datasource.min-idle=5
+#  spring.datasource.initial-size=5
 
 eureka:
   client:
     serviceUrl:
       defaultZone: http://localhost:8761/eureka/
+#debug: true

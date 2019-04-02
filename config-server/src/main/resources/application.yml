@@ -3,6 +3,8 @@ server:
 spring:
   application:
     name: config-server
+  profiles:
+    active: dev
   cloud:
     config:
       label: master
@@ -19,4 +21,10 @@ eureka:
     serviceUrl:
       defaultZone: http://localhost:8761/eureka/
 #  profiles:
+#debug: true
 #    active: dev
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'

@@ -27,6 +27,7 @@
         <!--<module>service-starter</module>-->
         <!--<module>service-container</module>-->
         <module>oauth2-server</module>
+        <module>function-server</module>
         <!--<module>github-client</module>-->
     </modules>
 
